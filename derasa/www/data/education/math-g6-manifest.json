@@ -1,0 +1,32 @@
+{
+  "packId": "math-g6",
+  "subject": "math",
+  "subjectAr": "الرياضيات",
+  "level": "g6",
+  "levelAr": "الصف السادس",
+  "title": "رياضيات الصف السادس",
+  "titleEn": "Mathematics Grade 6",
+  "version": "1.0.0",
+  "lessons": [
+    {
+      "id": "math-g6-l1",
+      "title": "الأعداد الطبيعية"
+    },
+    {
+      "id": "math-g6-l2",
+      "title": "القوى والجذور"
+    },
+    {
+      "id": "math-g6-l3",
+      "title": "الكواريع والمكعبات"
+    },
+    {
+      "id": "math-g6-l4",
+      "title": "النسبة والتناسب"
+    },
+    {
+      "id": "math-g6-l5",
+      "title": "النسبة المئوية"
+    }
+  ]
+}

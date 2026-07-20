@@ -1,0 +1,32 @@
+{
+  "lesson": "percentages",
+  "questions": [
+    {
+      "id": 1,
+      "question_ar": "ما هي 20% من 150 جنيه؟",
+      "question_en": "What is 20% of 150 pounds?",
+      "options_ar": ["20 جنيه", "30 جنيه", "40 جنيه"],
+      "options_en": ["20 pounds", "30 pounds", "40 pounds"],
+      "correct_answer": 1,
+      "explanation_ar": "20% من 150 = 0.20 × 150 = 30 جنيه."
+    },
+    {
+      "id": 2,
+      "question_ar": "إذا كان سعر كتاب 80 جنيهًا وحدث خصم 25%، فما السعر بعد الخصم؟",
+      "question_en": "If a book costs 80 pounds and there is a 25% discount, what is the price after discount?",
+      "options_ar": ["60 جنيه", "65 جنيه", "70 جنيه"],
+      "options_en": ["60 pounds", "65 pounds", "70 pounds"],
+      "correct_answer": 0,
+      "explanation_ar": "الخصم = 25% من 80 = 0.25 × 80 = 20 جنيه. السعر بعد الخصم = 80 - 20 = 60 جنيه."
+    },
+    {
+      "id": 3,
+      "question_ar": "حول 0.125 إلى نسبة مئوية.",
+      "question_en": "Convert 0.125 to a percentage.",
+      "options_ar": ["1.25%", "12.5%", "125%"],
+      "options_en": ["1.25%", "12.5%", "125%"],
+      "correct_answer": 1,
+      "explanation_ar": "لتحويل العشري إلى نسبة مئوية، نضرب في 100: 0.125 × 100 = 12.5%."
+    }
+  ]
+}

@@ -1,0 +1,6579 @@
+{
+  "metadata": {
+    "area": "Khartoum Metropolitan (Khartoum, Bahri, Omdurman)",
+    "bbox": {
+      "min_lat": 15.3,
+      "max_lat": 15.85,
+      "min_lon": 32.35,
+      "max_lon": 32.85
+    },
+    "source": "OpenStreetMap (ODbL 1.0)",
+    "source_url": "https://api.openstreetmap.org/api/0.6/map.json",
+    "data_method": "OSM API 0.6 — multiple bbox queries",
+    "generated": "2026-07-20",
+    "total_pois": 382,
+    "categories_ar": {
+      "bakery": "مخبز",
+      "supermarket": "سوبر ماركت",
+      "kiosk": "كشك",
+      "convenience": "بقالة",
+      "mobile_phone": "محل موبايل",
+      "electronics": "إلكترونيات",
+      "clothes": "ملابس",
+      "hardware": "أدوات",
+      "pharmacy": "صيدلية",
+      "clinic": "عيادة",
+      "hospital": "مستشفى",
+      "doctors": "طبيب",
+      "fuel": "محطة وقود",
+      "marketplace": "سوق",
+      "restaurant": "مطعم",
+      "cafe": "مقهى",
+      "bank": "بنك",
+      "atm": "صراف آلي",
+      "school": "مدرسة"
+    }
+  },
+  "pois": [
+    {
+      "id": "osm_node_44875545",
+      "osm_id": 44875545,
+      "osm_type": "node",
+      "name_en": "طرمبة حجازي",
+      "name_ar": "طرمبة حجازي",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.56265,
+      "lon": 32.536886,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "fuel",
+        "name": "طرمبة حجازي"
+      }
+    },
+    {
+      "id": "osm_node_570150570",
+      "osm_id": 570150570,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.560959,
+      "lon": 32.536824,
+      "area": "Khartoum Central",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "addr:postcode": "11111",
+        "addr:street": "شارع الصحافة زلط",
+        "addr:street:ar": "شارع الصحافة زلط",
+        "amenity": "atm",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm_node_3069054695",
+      "osm_id": 3069054695,
+      "osm_type": "node",
+      "name_en": "الدلالة",
+      "name_ar": "الدلالة",
+      "category_en": "marketplace",
+      "category_ar": "سوق",
+      "lat": 15.562153,
+      "lon": 32.532821,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "marketplace",
+        "name": "الدلالة"
+      }
+    },
+    {
+      "id": "osm_node_3072399068",
+      "osm_id": 3072399068,
+      "osm_type": "node",
+      "name_en": "النحلة",
+      "name_ar": "النحلة",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.557863,
+      "lon": 32.537234,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "fuel",
+        "name": "النحلة"
+      }
+    },
+    {
+      "id": "osm_node_3072399069",
+      "osm_id": 3072399069,
+      "osm_type": "node",
+      "name_en": "طلمبة النيل",
+      "name_ar": "طلمبة النيل",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.550976,
+      "lon": 32.538462,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "fuel",
+        "name": "طلمبة النيل"
+      }
+    },
+    {
+      "id": "osm_node_3076844038",
+      "osm_id": 3076844038,
+      "osm_type": "node",
+      "name_en": "مخبز سحر العيون",
+      "name_ar": "مخبز سحر العيون",
+      "category_en": "bakery",
+      "category_ar": "مخبز",
+      "lat": 15.563827,
+      "lon": 32.53629,
+      "area": "Khartoum Central",
+      "tags": {
+        "name": "مخبز سحر العيون",
+        "shop": "bakery"
+      }
+    },
+    {
+      "id": "osm_node_4548473800",
+      "osm_id": 4548473800,
+      "osm_type": "node",
+      "name_en": "صراف آلي بنك فيصل الاسلامي",
+      "name_ar": "صراف آلي بنك فيصل الاسلامي",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.560627,
+      "lon": 32.5366,
+      "area": "Khartoum Central",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "addr:postcode": "11111",
+        "addr:street": "شارع الصحافة زلط",
+        "addr:street:ar": "شارع الصحافة زلط",
+        "amenity": "atm",
+        "name": "صراف آلي بنك فيصل الاسلامي",
+        "name:ar": "صراف آلي بنك فيصل الاسلامي"
+      }
+    },
+    {
+      "id": "osm_node_4548474201",
+      "osm_id": 4548474201,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.562757,
+      "lon": 32.539636,
+      "area": "Khartoum Central",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "addr:postcode": "11111",
+        "addr:street": "شارع 61",
+        "addr:street:ar": "شارع 61",
+        "amenity": "bank",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm_node_4693958089",
+      "osm_id": 4693958089,
+      "osm_type": "node",
+      "name_en": "University of Sennar",
+      "name_ar": "University of Sennar",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.561947,
+      "lon": 32.532919,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "school",
+        "name": "University of Sennar",
+        "name:en": "University of Sennar"
+      }
+    },
+    {
+      "id": "osm_node_5436682123",
+      "osm_id": 5436682123,
+      "osm_type": "node",
+      "name_en": "السوق الشعبي",
+      "name_ar": "السوق الشعبي",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.558514,
+      "lon": 32.537076,
+      "area": "Khartoum Central",
+      "tags": {
+        "addr:street": "شارع الصحافة",
+        "name": "السوق الشعبي",
+        "name:ar": "السوق الشعبي",
+        "name:en": "Souk el Shabi",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_5614597310",
+      "osm_id": 5614597310,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.564914,
+      "lon": 32.536367,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "atm",
+        "brand": "البنك الفرنسي السوداني",
+        "opening_hours": "24/7",
+        "operator": "البنك الفرنسي السوداني"
+      }
+    },
+    {
+      "id": "osm_node_5614597311",
+      "osm_id": 5614597311,
+      "osm_type": "node",
+      "name_en": "شنداوي",
+      "name_ar": "شنداوي",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.564846,
+      "lon": 32.536068,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "شنداوي"
+      }
+    },
+    {
+      "id": "osm_node_5614597313",
+      "osm_id": 5614597313,
+      "osm_type": "node",
+      "name_en": "صيدلية سيفوي",
+      "name_ar": "صيدلية سيفوي",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.564866,
+      "lon": 32.536367,
+      "area": "Khartoum Central",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "language:ar": "main",
+        "name": "صيدلية سيفوي",
+        "name:ar": "صيدلية سيفوي",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "id": "osm_node_5614597314",
+      "osm_id": 5614597314,
+      "osm_type": "node",
+      "name_en": "عصائر البرعي",
+      "name_ar": "عصائر البرعي",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.563645,
+      "lon": 32.536279,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "عصائر البرعي"
+      }
+    },
+    {
+      "id": "osm_node_5614597315",
+      "osm_id": 5614597315,
+      "osm_type": "node",
+      "name_en": "ابو الشباب",
+      "name_ar": "ابو الشباب",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.563721,
+      "lon": 32.536278,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "restaurant",
+        "delivery": "no",
+        "name": "ابو الشباب",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "id": "osm_node_7006451078",
+      "osm_id": 7006451078,
+      "osm_type": "node",
+      "name_en": "طرمبة حجازي",
+      "name_ar": "طرمبة حجازي",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.5625,
+      "lon": 32.536923,
+      "area": "Khartoum Central",
+      "tags": {
+        "addr:street": "شارع الصحافة زلط",
+        "amenity": "fuel",
+        "name": "طرمبة حجازي"
+      }
+    },
+    {
+      "id": "osm_node_7013181843",
+      "osm_id": 7013181843,
+      "osm_type": "node",
+      "name_en": "صيدلية الفرقان",
+      "name_ar": "صيدلية الفرقان",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.551562,
+      "lon": 32.538311,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية الفرقان"
+      }
+    },
+    {
+      "id": "osm_node_7013186779",
+      "osm_id": 7013186779,
+      "osm_type": "node",
+      "name_en": "فوال النزهة",
+      "name_ar": "فوال النزهة",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.551437,
+      "lon": 32.537563,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "فوال النزهة"
+      }
+    },
+    {
+      "id": "osm_node_7013190411",
+      "osm_id": 7013190411,
+      "osm_type": "node",
+      "name_en": "محطة وقود النيل - النزهة",
+      "name_ar": "محطة وقود النيل - النزهة",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.550938,
+      "lon": 32.538189,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "fuel",
+        "name": "محطة وقود النيل - النزهة"
+      }
+    },
+    {
+      "id": "osm_node_7013193082",
+      "osm_id": 7013193082,
+      "osm_type": "node",
+      "name_en": "مخبز ود الفكي - النزهة",
+      "name_ar": "مخبز ود الفكي - النزهة",
+      "category_en": "bakery",
+      "category_ar": "مخبز",
+      "lat": 15.551312,
+      "lon": 32.536564,
+      "area": "Khartoum Central",
+      "tags": {
+        "name": "مخبز ود الفكي - النزهة",
+        "shop": "bakery"
+      }
+    },
+    {
+      "id": "osm_node_7013194654",
+      "osm_id": 7013194654,
+      "osm_type": "node",
+      "name_en": "بيرقر لاب",
+      "name_ar": "بيرقر لاب",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.551562,
+      "lon": 32.538437,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "بيرقر لاب"
+      }
+    },
+    {
+      "id": "osm_node_7013194940",
+      "osm_id": 7013194940,
+      "osm_type": "node",
+      "name_en": "مطعم القبلتين",
+      "name_ar": "مطعم القبلتين",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.550062,
+      "lon": 32.539188,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم القبلتين"
+      }
+    },
+    {
+      "id": "osm_node_7013199261",
+      "osm_id": 7013199261,
+      "osm_type": "node",
+      "name_en": "مطعم ماستر",
+      "name_ar": "مطعم ماستر",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.550062,
+      "lon": 32.532063,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم ماستر"
+      }
+    },
+    {
+      "id": "osm_node_7013202493",
+      "osm_id": 7013202493,
+      "osm_type": "node",
+      "name_en": "مدارس النيل الثانوية بنين وبنات",
+      "name_ar": "مدارس النيل الثانوية بنين وبنات",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.550312,
+      "lon": 32.535438,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "school",
+        "name": "مدارس النيل الثانوية بنين وبنات"
+      }
+    },
+    {
+      "id": "osm_node_7013203712",
+      "osm_id": 7013203712,
+      "osm_type": "node",
+      "name_en": "مخبز جماع",
+      "name_ar": "مخبز جماع",
+      "category_en": "bakery",
+      "category_ar": "مخبز",
+      "lat": 15.551812,
+      "lon": 32.538311,
+      "area": "Khartoum Central",
+      "tags": {
+        "name": "مخبز جماع",
+        "shop": "bakery"
+      }
+    },
+    {
+      "id": "osm_node_7013205291",
+      "osm_id": 7013205291,
+      "osm_type": "node",
+      "name_en": "صيدلية اردوغان",
+      "name_ar": "صيدلية اردوغان",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.551063,
+      "lon": 32.535686,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية اردوغان"
+      }
+    },
+    {
+      "id": "osm_node_7013209528",
+      "osm_id": 7013209528,
+      "osm_type": "node",
+      "name_en": "صيدلية فاطمة عمر 2",
+      "name_ar": "صيدلية فاطمة عمر 2",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.550438,
+      "lon": 32.531811,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية فاطمة عمر 2"
+      }
+    },
+    {
+      "id": "osm_node_7013230504",
+      "osm_id": 7013230504,
+      "osm_type": "node",
+      "name_en": "مخبز النزهة",
+      "name_ar": "مخبز النزهة",
+      "category_en": "bakery",
+      "category_ar": "مخبز",
+      "lat": 15.550312,
+      "lon": 32.530811,
+      "area": "Khartoum Central",
+      "tags": {
+        "name": "مخبز النزهة",
+        "shop": "bakery"
+      }
+    },
+    {
+      "id": "osm_node_7039411234",
+      "osm_id": 7039411234,
+      "osm_type": "node",
+      "name_en": "مستشفى التميز للطوارئ والاصابات",
+      "name_ar": "مستشفى التميز للطوارئ والاصابات",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.552288,
+      "lon": 32.541837,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى التميز للطوارئ والاصابات",
+        "name:ar": "مستشفى التميز للطوارئ والاصابات",
+        "name:en": "Excellence Emergency and Trauma Hospital"
+      }
+    },
+    {
+      "id": "osm_node_7702844585",
+      "osm_id": 7702844585,
+      "osm_type": "node",
+      "name_en": "صيدلية الهلالي",
+      "name_ar": "صيدلية الهلالي",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.563422,
+      "lon": 32.536343,
+      "area": "Khartoum Central",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "addr:street": "شارع الصحافة",
+        "addr:street:ar": "شارع الصحافة",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "language:ar": "main",
+        "name": "صيدلية الهلالي",
+        "name:ar": "صيدلية الهلالي"
+      }
+    },
+    {
+      "id": "osm_node_8142045152",
+      "osm_id": 8142045152,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.561834,
+      "lon": 32.53409,
+      "area": "Khartoum Central",
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "id": "osm_node_8642470417",
+      "osm_id": 8642470417,
+      "osm_type": "node",
+      "name_en": "مستشفى سعد أبو العلا التعليمي",
+      "name_ar": "مستشفى سعد أبو العلا التعليمي",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.562112,
+      "lon": 32.54395,
+      "area": "Khartoum Central",
+      "tags": {
+        "alt_name": "مستشفى سعد أبو العلا",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى سعد أبو العلا التعليمي",
+        "name:ar": "مستشفى سعد أبو العلا التعليمي",
+        "name:en": "Saad Abu Alela Hospital"
+      }
+    },
+    {
+      "id": "osm_node_1428453017",
+      "osm_id": 1428453017,
+      "osm_type": "node",
+      "name_en": "NP",
+      "name_ar": "NP",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.55909,
+      "lon": 32.545383,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "amenity": "fuel",
+        "name": "NP"
+      }
+    },
+    {
+      "id": "osm_node_2710560264",
+      "osm_id": 2710560264,
+      "osm_type": "node",
+      "name_en": "رويال بروست",
+      "name_ar": "رويال بروست",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.558956,
+      "lon": 32.554593,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "addr:city": "khartoum",
+        "addr:street": "Africa Road",
+        "amenity": "restaurant",
+        "capacity": "120",
+        "cuisine": "chicken",
+        "name": "رويال بروست",
+        "name:ar": "رويال بروست",
+        "name:en": "Royal Broast",
+        "opening_hours": "08:00-24:00"
+      }
+    },
+    {
+      "id": "osm_node_3506882430",
+      "osm_id": 3506882430,
+      "osm_type": "node",
+      "name_en": "Abu Dhabi Islamic Bank",
+      "name_ar": "Abu Dhabi Islamic Bank",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.560412,
+      "lon": 32.552827,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "amenity": "bank",
+        "name": "Abu Dhabi Islamic Bank"
+      }
+    },
+    {
+      "id": "osm_node_4548419810",
+      "osm_id": 4548419810,
+      "osm_type": "node",
+      "name_en": "بنك المال المتحد",
+      "name_ar": "بنك المال المتحد",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.560034,
+      "lon": 32.556312,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "addr:street": "شارع مامون بحيري",
+        "amenity": "bank",
+        "name": "بنك المال المتحد",
+        "name:en": "بنك المال المتحد"
+      }
+    },
+    {
+      "id": "osm_node_4548443091",
+      "osm_id": 4548443091,
+      "osm_type": "node",
+      "name_en": "UNIVERSE PHARMACY",
+      "name_ar": "UNIVERSE PHARMACY",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.559701,
+      "lon": 32.549177,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "addr:postcode": "11111",
+        "addr:street": "شارع مامون بحيري",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "UNIVERSE PHARMACY",
+        "name:en": "UNIVERSE PHARMACY",
+        "opening_hours": "Mo-Su 10:00-01:00"
+      }
+    },
+    {
+      "id": "osm_node_4548474595",
+      "osm_id": 4548474595,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.558546,
+      "lon": 32.546384,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "addr:postcode": "11111",
+        "amenity": "bank",
+        "atm": "yes"
+      }
+    },
+    {
+      "id": "osm_node_4548524489",
+      "osm_id": 4548524489,
+      "osm_type": "node",
+      "name_en": "ATM",
+      "name_ar": "ATM",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.551258,
+      "lon": 32.546669,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "addr:postcode": "11111",
+        "addr:street": "شارع محمد نجيب",
+        "amenity": "bank",
+        "name": "ATM",
+        "name:en": "ATM"
+      }
+    },
+    {
+      "id": "osm_node_4561953889",
+      "osm_id": 4561953889,
+      "osm_type": "node",
+      "name_en": "ATM",
+      "name_ar": "ATM",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.555962,
+      "lon": 32.552832,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "addr:street": "Africa Road",
+        "amenity": "bank",
+        "name": "ATM",
+        "name:en": "ATM",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm_node_5407630621",
+      "osm_id": 5407630621,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.558826,
+      "lon": 32.549067,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "amenity": "atm",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm_node_5608851721",
+      "osm_id": 5608851721,
+      "osm_type": "node",
+      "name_en": "heritage restaurant",
+      "name_ar": "heritage restaurant",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.56408,
+      "lon": 32.54859,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "heritage restaurant"
+      }
+    },
+    {
+      "id": "osm_node_6057686150",
+      "osm_id": 6057686150,
+      "osm_type": "node",
+      "name_en": "مدرسة الخرطوم العالمية العليا",
+      "name_ar": "مدرسة الخرطوم العالمية العليا",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.5566,
+      "lon": 32.547023,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "amenity": "school",
+        "name": "مدرسة الخرطوم العالمية العليا"
+      }
+    },
+    {
+      "id": "osm_node_6057695214",
+      "osm_id": 6057695214,
+      "osm_type": "node",
+      "name_en": "مصرف السلام ATM",
+      "name_ar": "مصرف السلام ATM",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.552578,
+      "lon": 32.555039,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "amenity": "bank",
+        "name": "مصرف السلام ATM",
+        "name:en": "Alsalam Bank ATM"
+      }
+    },
+    {
+      "id": "osm_node_6070786526",
+      "osm_id": 6070786526,
+      "osm_type": "node",
+      "name_en": "Panda",
+      "name_ar": "مطعم صالة بنده الملكية",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.555482,
+      "lon": 32.553278,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Panda",
+        "name:ar": "مطعم صالة بنده الملكية",
+        "name:en": "Panda Restaurant"
+      }
+    },
+    {
+      "id": "osm_node_7007996536",
+      "osm_id": 7007996536,
+      "osm_type": "node",
+      "name_en": "ابو ياسر جلابية",
+      "name_ar": "ابو ياسر جلابية",
+      "category_en": "clothes",
+      "category_ar": "ملابس",
+      "lat": 15.5604,
+      "lon": 32.557854,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "name": "ابو ياسر جلابية",
+        "shop": "clothes"
+      }
+    },
+    {
+      "id": "osm_node_7819872818",
+      "osm_id": 7819872818,
+      "osm_type": "node",
+      "name_en": "Nuba",
+      "name_ar": "Nuba",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.557095,
+      "lon": 32.555129,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "international;buffet;breakfast;lunch;fine_dining",
+        "name": "Nuba",
+        "website": "https://www.alsalamhotel.com/"
+      }
+    },
+    {
+      "id": "osm_node_7819872819",
+      "osm_id": 7819872819,
+      "osm_type": "node",
+      "name_en": "City Cafe",
+      "name_ar": "City Cafe",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.556739,
+      "lon": 32.555228,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:street": "شارع افريقيا",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "cake;sandwich;coffee_shop",
+        "internet_access": "yes",
+        "name": "City Cafe",
+        "phone": "+249(187)007777",
+        "website": "https://www.alsalamhotel.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "id": "osm_node_10778909405",
+      "osm_id": 10778909405,
+      "osm_type": "node",
+      "name_en": "الشرقي شرق عفراء",
+      "name_ar": "الشرقي شرق عفراء",
+      "category_en": "cafe",
+      "category_ar": "مقهى",
+      "lat": 15.560276,
+      "lon": 32.556886,
+      "area": "Khartoum Central 2",
+      "tags": {
+        "amenity": "cafe",
+        "name": "الشرقي شرق عفراء"
+      }
+    },
+    {
+      "id": "osm_node_1796979505",
+      "osm_id": 1796979505,
+      "osm_type": "node",
+      "name_en": "Supermarket Elmoshtara",
+      "name_ar": "Supermarket Elmoshtara",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.546209,
+      "lon": 32.539304,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "Supermarket Elmoshtara",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_4548439402",
+      "osm_id": 4548439402,
+      "osm_type": "node",
+      "name_en": "بخورات المرشد",
+      "name_ar": "بخورات المرشد",
+      "category_en": "convenience",
+      "category_ar": "بقالة",
+      "lat": 15.543444,
+      "lon": 32.539684,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "addr:postcode": "11111",
+        "addr:street": "شارع الصحافة زلط",
+        "name": "بخورات المرشد",
+        "name:en": "بخورات المرشد",
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm_node_4548450106",
+      "osm_id": 4548450106,
+      "osm_type": "node",
+      "name_en": "منقاش للعماري الجيد",
+      "name_ar": "منقاش للعماري الجيد",
+      "category_en": "convenience",
+      "category_ar": "بقالة",
+      "lat": 15.542407,
+      "lon": 32.540347,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "منقاش للعماري الجيد",
+        "name:en": "منقاش للعماري الجيد",
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm_node_4548450107",
+      "osm_id": 4548450107,
+      "osm_type": "node",
+      "name_en": "كهرباء الخرطوم وسط",
+      "name_ar": "كهرباء الخرطوم وسط",
+      "category_en": "convenience",
+      "category_ar": "بقالة",
+      "lat": 15.54441,
+      "lon": 32.540079,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "كهرباء الخرطوم وسط",
+        "name:en": "كهرباء الخرطوم وسط",
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm_node_4548474194",
+      "osm_id": 4548474194,
+      "osm_type": "node",
+      "name_en": "صيدلية طيبة2",
+      "name_ar": "صيدلية طيبة2",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.542266,
+      "lon": 32.539806,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية طيبة2",
+        "name:en": "صيدلية طيبة2"
+      }
+    },
+    {
+      "id": "osm_node_5357199122",
+      "osm_id": 5357199122,
+      "osm_type": "node",
+      "name_en": "مدرسة الامتداد الثانوية",
+      "name_ar": "مدرسة الامتداد الثانوية",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.547625,
+      "lon": 32.539793,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "school",
+        "name": "مدرسة الامتداد الثانوية"
+      }
+    },
+    {
+      "id": "osm_node_7013021414",
+      "osm_id": 7013021414,
+      "osm_type": "node",
+      "name_en": "جست برغر",
+      "name_ar": "جست برغر",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.542563,
+      "lon": 32.537064,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "amenity": "restaurant",
+        "name": "جست برغر",
+        "name:ar": "جست برغر",
+        "name:en": "Just Burger"
+      }
+    },
+    {
+      "id": "osm_node_7013025308",
+      "osm_id": 7013025308,
+      "osm_type": "node",
+      "name_en": "مركز ود عجيلاوي للتسوق",
+      "name_ar": "مركز ود عجيلاوي للتسوق",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.537188,
+      "lon": 32.540813,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "مركز ود عجيلاوي للتسوق",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7013025315",
+      "osm_id": 7013025315,
+      "osm_type": "node",
+      "name_en": "سوبر ماركت المشترى",
+      "name_ar": "سوبر ماركت المشترى",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.546062,
+      "lon": 32.539188,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "سوبر ماركت المشترى",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7013026389",
+      "osm_id": 7013026389,
+      "osm_type": "node",
+      "name_en": "بقالة ياسر",
+      "name_ar": "بقالة ياسر",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.539187,
+      "lon": 32.533939,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "بقالة ياسر",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7013032829",
+      "osm_id": 7013032829,
+      "osm_type": "node",
+      "name_en": "سوق الصحافة مربع 19",
+      "name_ar": "سوق الصحافة مربع 19",
+      "category_en": "marketplace",
+      "category_ar": "سوق",
+      "lat": 15.538438,
+      "lon": 32.531437,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "marketplace",
+        "name": "سوق الصحافة مربع 19"
+      }
+    },
+    {
+      "id": "osm_node_7013033952",
+      "osm_id": 7013033952,
+      "osm_type": "node",
+      "name_en": "دكان علي",
+      "name_ar": "دكان علي",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.538813,
+      "lon": 32.539062,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "دكان علي",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7013035626",
+      "osm_id": 7013035626,
+      "osm_type": "node",
+      "name_en": "ابو الريان سنتر",
+      "name_ar": "ابو الريان سنتر",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.535937,
+      "lon": 32.538437,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "ابو الريان سنتر",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7013038831",
+      "osm_id": 7013038831,
+      "osm_type": "node",
+      "name_en": "مطعم مغلي للفتة",
+      "name_ar": "مطعم مغلي للفتة",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.537937,
+      "lon": 32.536438,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم مغلي للفتة"
+      }
+    },
+    {
+      "id": "osm_node_7013043366",
+      "osm_id": 7013043366,
+      "osm_type": "node",
+      "name_en": "صيدلية عبد المحمود",
+      "name_ar": "صيدلية عبد المحمود",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.539562,
+      "lon": 32.532188,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية عبد المحمود"
+      }
+    },
+    {
+      "id": "osm_node_7013047627",
+      "osm_id": 7013047627,
+      "osm_type": "node",
+      "name_en": "Jabra scan",
+      "name_ar": "Jabra scan",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.541688,
+      "lon": 32.531063,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Jabra scan"
+      }
+    },
+    {
+      "id": "osm_node_7013048537",
+      "osm_id": 7013048537,
+      "osm_type": "node",
+      "name_en": "سوبر ماركت عبد الكريم",
+      "name_ar": "سوبر ماركت عبد الكريم",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.538438,
+      "lon": 32.536812,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "سوبر ماركت عبد الكريم",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7013053813",
+      "osm_id": 7013053813,
+      "osm_type": "node",
+      "name_en": "مطعم وكافيه كاستلو",
+      "name_ar": "مطعم وكافيه كاستلو",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.536563,
+      "lon": 32.541061,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم وكافيه كاستلو"
+      }
+    },
+    {
+      "id": "osm_node_7013054009",
+      "osm_id": 7013054009,
+      "osm_type": "node",
+      "name_en": "بقالة الفاتح - اولاد الجزيرة",
+      "name_ar": "بقالة الفاتح - اولاد الجزيرة",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.540812,
+      "lon": 32.531689,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "بقالة الفاتح - اولاد الجزيرة",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7013055556",
+      "osm_id": 7013055556,
+      "osm_type": "node",
+      "name_en": "صيدلية بالميرا",
+      "name_ar": "صيدلية بالميرا",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.541938,
+      "lon": 32.540314,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية بالميرا"
+      }
+    },
+    {
+      "id": "osm_node_7013059010",
+      "osm_id": 7013059010,
+      "osm_type": "node",
+      "name_en": "مطعم ليالي",
+      "name_ar": "مطعم ليالي",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.543312,
+      "lon": 32.534439,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم ليالي"
+      }
+    },
+    {
+      "id": "osm_node_7013061821",
+      "osm_id": 7013061821,
+      "osm_type": "node",
+      "name_en": "امين للملبوسات",
+      "name_ar": "امين للملبوسات",
+      "category_en": "clothes",
+      "category_ar": "ملابس",
+      "lat": 15.540812,
+      "lon": 32.540562,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "امين للملبوسات",
+        "shop": "clothes"
+      }
+    },
+    {
+      "id": "osm_node_7013062588",
+      "osm_id": 7013062588,
+      "osm_type": "node",
+      "name_en": "بوتيك اثيو سودان",
+      "name_ar": "بوتيك اثيو سودان",
+      "category_en": "clothes",
+      "category_ar": "ملابس",
+      "lat": 15.542563,
+      "lon": 32.539814,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "بوتيك اثيو سودان",
+        "shop": "clothes"
+      }
+    },
+    {
+      "id": "osm_node_7013063038",
+      "osm_id": 7013063038,
+      "osm_type": "node",
+      "name_en": "صيدلية اكسون",
+      "name_ar": "صيدلية اكسون",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.540812,
+      "lon": 32.540562,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية اكسون"
+      }
+    },
+    {
+      "id": "osm_node_7013063079",
+      "osm_id": 7013063079,
+      "osm_type": "node",
+      "name_en": "صيدلية الجابري",
+      "name_ar": "صيدلية الجابري",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.537687,
+      "lon": 32.540688,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية الجابري"
+      }
+    },
+    {
+      "id": "osm_node_7013068991",
+      "osm_id": 7013068991,
+      "osm_type": "node",
+      "name_en": "مدرسة القدس الثانوية - بنين",
+      "name_ar": "مدرسة القدس الثانوية - بنين",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.539312,
+      "lon": 32.539936,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "school",
+        "name": "مدرسة القدس الثانوية - بنين"
+      }
+    },
+    {
+      "id": "osm_node_7013070769",
+      "osm_id": 7013070769,
+      "osm_type": "node",
+      "name_en": "أمين للملبوسات",
+      "name_ar": "أمين للملبوسات",
+      "category_en": "clothes",
+      "category_ar": "ملابس",
+      "lat": 15.541562,
+      "lon": 32.539436,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "name": "أمين للملبوسات",
+        "name:ar": "أمين للملبوسات",
+        "shop": "clothes"
+      }
+    },
+    {
+      "id": "osm_node_7013072549",
+      "osm_id": 7013072549,
+      "osm_type": "node",
+      "name_en": "مطعم الكوتش",
+      "name_ar": "مطعم الكوتش",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.539187,
+      "lon": 32.540813,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم الكوتش"
+      }
+    },
+    {
+      "id": "osm_node_7013072550",
+      "osm_id": 7013072550,
+      "osm_type": "node",
+      "name_en": "مطعم ود الكرسني",
+      "name_ar": "مطعم ود الكرسني",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.537313,
+      "lon": 32.540062,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم ود الكرسني"
+      }
+    },
+    {
+      "id": "osm_node_7013075415",
+      "osm_id": 7013075415,
+      "osm_type": "node",
+      "name_en": "صيدلية راما",
+      "name_ar": "صيدلية راما",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.535438,
+      "lon": 32.541313,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية راما"
+      }
+    },
+    {
+      "id": "osm_node_7013076096",
+      "osm_id": 7013076096,
+      "osm_type": "node",
+      "name_en": "صحافة سكوير",
+      "name_ar": "صحافة سكوير",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.536813,
+      "lon": 32.539688,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "صحافة سكوير",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7013076765",
+      "osm_id": 7013076765,
+      "osm_type": "node",
+      "name_en": "صيدلية محطة 7",
+      "name_ar": "صيدلية محطة 7",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.544187,
+      "lon": 32.539562,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية محطة 7"
+      }
+    },
+    {
+      "id": "osm_node_7013076877",
+      "osm_id": 7013076877,
+      "osm_type": "node",
+      "name_en": "صراف الي مصرف التنمية الصناعية",
+      "name_ar": "صراف الي مصرف التنمية الصناعية",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.544313,
+      "lon": 32.539936,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "atm",
+        "name": "صراف الي مصرف التنمية الصناعية"
+      }
+    },
+    {
+      "id": "osm_node_7013098300",
+      "osm_id": 7013098300,
+      "osm_type": "node",
+      "name_en": "بيتزا كنج",
+      "name_ar": "بيتزا كنج",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.547313,
+      "lon": 32.539062,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "بيتزا كنج"
+      }
+    },
+    {
+      "id": "osm_node_7013111602",
+      "osm_id": 7013111602,
+      "osm_type": "node",
+      "name_en": "هود فوود",
+      "name_ar": "هود فوود",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.545688,
+      "lon": 32.539688,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "هود فوود"
+      }
+    },
+    {
+      "id": "osm_node_7013111607",
+      "osm_id": 7013111607,
+      "osm_type": "node",
+      "name_en": "بابكير للبروست",
+      "name_ar": "بابكير للبروست",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.547188,
+      "lon": 32.539314,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "بابكير للبروست"
+      }
+    },
+    {
+      "id": "osm_node_7013112302",
+      "osm_id": 7013112302,
+      "osm_type": "node",
+      "name_en": "مخبز البحرين البلدي",
+      "name_ar": "مخبز البحرين البلدي",
+      "category_en": "bakery",
+      "category_ar": "مخبز",
+      "lat": 15.544437,
+      "lon": 32.539562,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "مخبز البحرين البلدي",
+        "shop": "bakery"
+      }
+    },
+    {
+      "id": "osm_node_7013113292",
+      "osm_id": 7013113292,
+      "osm_type": "node",
+      "name_en": "بقالة الاسراء",
+      "name_ar": "بقالة الاسراء",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.545813,
+      "lon": 32.539188,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "بقالة الاسراء",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7013117241",
+      "osm_id": 7013117241,
+      "osm_type": "node",
+      "name_en": "مخبز مروي",
+      "name_ar": "مخبز مروي",
+      "category_en": "bakery",
+      "category_ar": "مخبز",
+      "lat": 15.546562,
+      "lon": 32.539188,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "مخبز مروي",
+        "shop": "bakery"
+      }
+    },
+    {
+      "id": "osm_node_7013170848",
+      "osm_id": 7013170848,
+      "osm_type": "node",
+      "name_en": "صيدلية مركز الدواء",
+      "name_ar": "صيدلية مركز الدواء",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.549437,
+      "lon": 32.538689,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية مركز الدواء"
+      }
+    },
+    {
+      "id": "osm_node_7013183945",
+      "osm_id": 7013183945,
+      "osm_type": "node",
+      "name_en": "صيدلية ريهام",
+      "name_ar": "صيدلية ريهام",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.547812,
+      "lon": 32.538937,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية ريهام"
+      }
+    },
+    {
+      "id": "osm_node_7013190655",
+      "osm_id": 7013190655,
+      "osm_type": "node",
+      "name_en": "سوق العشرة - التوابل",
+      "name_ar": "سوق العشرة - التوابل",
+      "category_en": "marketplace",
+      "category_ar": "سوق",
+      "lat": 15.549687,
+      "lon": 32.533188,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "marketplace",
+        "name": "سوق العشرة - التوابل"
+      }
+    },
+    {
+      "id": "osm_node_7013191612",
+      "osm_id": 7013191612,
+      "osm_type": "node",
+      "name_en": "قطاعة البصل - الكنزي",
+      "name_ar": "قطاعة البصل - الكنزي",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.549937,
+      "lon": 32.531937,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "قطاعة البصل - الكنزي",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7013195687",
+      "osm_id": 7013195687,
+      "osm_type": "node",
+      "name_en": "مركز سمير الصحي",
+      "name_ar": "مركز سمير الصحي",
+      "category_en": "clinic",
+      "category_ar": "عيادة",
+      "lat": 15.549437,
+      "lon": 32.539188,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "clinic",
+        "name": "مركز سمير الصحي"
+      }
+    },
+    {
+      "id": "osm_node_7013198828",
+      "osm_id": 7013198828,
+      "osm_type": "node",
+      "name_en": "صيدلية مركز سمير",
+      "name_ar": "صيدلية مركز سمير",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.549937,
+      "lon": 32.539062,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية مركز سمير"
+      }
+    },
+    {
+      "id": "osm_node_7013235144",
+      "osm_id": 7013235144,
+      "osm_type": "node",
+      "name_en": "صيدلية العشرة",
+      "name_ar": "صيدلية العشرة",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.549937,
+      "lon": 32.530437,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية العشرة"
+      }
+    },
+    {
+      "id": "osm_node_7236392185",
+      "osm_id": 7236392185,
+      "osm_type": "node",
+      "name_en": "هاشتاق تكنولوجي",
+      "name_ar": "هاشتاق تكنولوجي",
+      "category_en": "electronics",
+      "category_ar": "إلكترونيات",
+      "lat": 15.543283,
+      "lon": 32.536727,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "name": "هاشتاق تكنولوجي",
+        "shop": "electronics"
+      }
+    },
+    {
+      "id": "osm_node_7236401185",
+      "osm_id": 7236401185,
+      "osm_type": "node",
+      "name_en": "English discussion center",
+      "name_ar": "English discussion center",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.546639,
+      "lon": 32.533743,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "school",
+        "name": "English discussion center"
+      }
+    },
+    {
+      "id": "osm_node_9980015717",
+      "osm_id": 9980015717,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.539014,
+      "lon": 32.532167,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "id": "osm_node_10685003205",
+      "osm_id": 10685003205,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "صيدلية التسامح",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.546399,
+      "lon": 32.539242,
+      "area": "Khartoum Central 3",
+      "tags": {
+        "amenity": "pharmacy",
+        "name:ar": "صيدلية التسامح"
+      }
+    },
+    {
+      "id": "osm_node_44883644",
+      "osm_id": 44883644,
+      "osm_type": "node",
+      "name_en": "محطة وقود بشائر اركويت",
+      "name_ar": "محطة وقود بشائر اركويت",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.547543,
+      "lon": 32.559212,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "addr:street": "شارع البلابل",
+        "amenity": "fuel",
+        "name": "محطة وقود بشائر اركويت"
+      }
+    },
+    {
+      "id": "osm_node_44888808",
+      "osm_id": 44888808,
+      "osm_type": "node",
+      "name_en": "Oilibya Gas Station",
+      "name_ar": "Oilibya Gas Station",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.546997,
+      "lon": 32.555127,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "addr:street": "Africa Road",
+        "amenity": "fuel",
+        "name": "Oilibya Gas Station"
+      }
+    },
+    {
+      "id": "osm_node_3065308202",
+      "osm_id": 3065308202,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.544178,
+      "lon": 32.547844,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_3507746216",
+      "osm_id": 3507746216,
+      "osm_type": "node",
+      "name_en": "مطعم افريقيا",
+      "name_ar": "مطعم افريقيا",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.545225,
+      "lon": 32.556197,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "name": "مطعم افريقيا"
+      }
+    },
+    {
+      "id": "osm_node_4329314212",
+      "osm_id": 4329314212,
+      "osm_type": "node",
+      "name_en": "بنك الجزيرة السوداني الاردني",
+      "name_ar": "بنك الجزيرة السوداني الاردني",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.549953,
+      "lon": 32.55594,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "addr:city": "Kartoum",
+        "addr:postcode": "11111",
+        "addr:street": "Africa Road",
+        "amenity": "bank",
+        "drive_through": "yes",
+        "name": "بنك الجزيرة السوداني الاردني",
+        "name:ar": "بنك الجزيرة السوداني الاردني",
+        "name:en": "Al Jazeera Sudanese Jordanian Bank",
+        "opening_hours": "08:00-14:00"
+      }
+    },
+    {
+      "id": "osm_node_4329314213",
+      "osm_id": 4329314213,
+      "osm_type": "node",
+      "name_en": "Omdurman National Bank ATM",
+      "name_ar": "Omdurman National Bank ATM",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.546844,
+      "lon": 32.556034,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "amenity": "atm",
+        "atm": "yes",
+        "cash_in": "no",
+        "currency:SDG": "yes",
+        "drive_through": "no",
+        "name": "Omdurman National Bank ATM",
+        "operator": "بنك امدرمان الوطني"
+      }
+    },
+    {
+      "id": "osm_node_4329314214",
+      "osm_id": 4329314214,
+      "osm_type": "node",
+      "name_en": "Faisal Islamic Bank ATM",
+      "name_ar": "صراف آلي - بنك فيصل الإسلامي",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.546517,
+      "lon": 32.555268,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Faisal Islamic Bank ATM",
+        "name:ar": "صراف آلي - بنك فيصل الإسلامي",
+        "name:en": "Faisal Islamic Bank ATM"
+      }
+    },
+    {
+      "id": "osm_node_4548473802",
+      "osm_id": 4548473802,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.548333,
+      "lon": 32.547718,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "addr:postcode": "11111",
+        "addr:street": "شارع محمد نجيب",
+        "addr:street:ar": "شارع محمد نجيب",
+        "language:ar": "main",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_4633226290",
+      "osm_id": 4633226290,
+      "osm_type": "node",
+      "name_en": "سوبرماركت الواحة",
+      "name_ar": "سوبرماركت الواحة",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.547486,
+      "lon": 32.559851,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "addr:street": "شارع البلابل",
+        "name": "سوبرماركت الواحة",
+        "name:ar": "سوبرماركت الواحة",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_4633271290",
+      "osm_id": 4633271290,
+      "osm_type": "node",
+      "name_en": "صيدلية علياء",
+      "name_ar": "صيدلية علياء",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.546907,
+      "lon": 32.556583,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "addr:street": "Al Balabel Street",
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "صيدلية علياء",
+        "name:ar": "صيدلية علياء"
+      }
+    },
+    {
+      "id": "osm_node_4633271291",
+      "osm_id": 4633271291,
+      "osm_type": "node",
+      "name_en": "صيدلية مكة ٦",
+      "name_ar": "صيدلية مكة ٦",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.546902,
+      "lon": 32.558357,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية مكة ٦",
+        "name:ar": "صيدلية مكة ٦"
+      }
+    },
+    {
+      "id": "osm_node_5993440343",
+      "osm_id": 5993440343,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.53535,
+      "lon": 32.549274,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "amenity": "atm",
+        "operator": "صراف ألي بنك الخرطوم"
+      }
+    },
+    {
+      "id": "osm_node_5993441862",
+      "osm_id": 5993441862,
+      "osm_type": "node",
+      "name_en": "بقالة كوكب",
+      "name_ar": "بقالة كوكب",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.535556,
+      "lon": 32.549213,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "name": "بقالة كوكب",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_5993443713",
+      "osm_id": 5993443713,
+      "osm_type": "node",
+      "name_en": "صيدلية شفق",
+      "name_ar": "صيدلية شفق",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.537493,
+      "lon": 32.548353,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "صيدلية شفق"
+      }
+    },
+    {
+      "id": "osm_node_5993444449",
+      "osm_id": 5993444449,
+      "osm_type": "node",
+      "name_en": "الناظم سوبر ماركت",
+      "name_ar": "الناظم سوبر ماركت",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.53796,
+      "lon": 32.548782,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "name": "الناظم سوبر ماركت",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_5993449795",
+      "osm_id": 5993449795,
+      "osm_type": "node",
+      "name_en": "مطعم الامارات",
+      "name_ar": "مطعم الامارات",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.540004,
+      "lon": 32.547933,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "addr:street": "شارع محمد نجيب",
+        "amenity": "restaurant",
+        "name": "مطعم الامارات"
+      }
+    },
+    {
+      "id": "osm_node_5993457576",
+      "osm_id": 5993457576,
+      "osm_type": "node",
+      "name_en": "صيدلية أبو صبا",
+      "name_ar": "صيدلية أبو صبا",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.540947,
+      "lon": 32.547805,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "صيدلية أبو صبا"
+      }
+    },
+    {
+      "id": "osm_node_5993475863",
+      "osm_id": 5993475863,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.541595,
+      "lon": 32.547658,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "amenity": "atm",
+        "operator": "صراف الي بنك امدرمان الوطني"
+      }
+    },
+    {
+      "id": "osm_node_6025142442",
+      "osm_id": 6025142442,
+      "osm_type": "node",
+      "name_en": "مطعم كريم سبله",
+      "name_ar": "مطعم كريم سبله",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.541053,
+      "lon": 32.556095,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:country": "SD",
+        "addr:state": "ولاية الخرطوم",
+        "addr:street": "Africa Road",
+        "amenity": "restaurant",
+        "name": "مطعم كريم سبله",
+        "name:en": "Karim Sibla Restaurant"
+      }
+    },
+    {
+      "id": "osm_node_6126586790",
+      "osm_id": 6126586790,
+      "osm_type": "node",
+      "name_en": "المركز الإفريقي الهولندي للعلاج الطبيعي",
+      "name_ar": "المركز الإفريقي الهولندي للعلاج الطبيعي",
+      "category_en": "clinic",
+      "category_ar": "عيادة",
+      "lat": 15.548778,
+      "lon": 32.554623,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "amenity": "clinic",
+        "name": "المركز الإفريقي الهولندي للعلاج الطبيعي"
+      }
+    },
+    {
+      "id": "osm_node_6237657289",
+      "osm_id": 6237657289,
+      "osm_type": "node",
+      "name_en": "اولاد امدرمان",
+      "name_ar": "اولاد امدرمان",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.537032,
+      "lon": 32.556873,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "addr:street": "شارع افريقيا",
+        "amenity": "restaurant",
+        "name": "اولاد امدرمان",
+        "opening_hours": "Mo-Su 07:00-01:00"
+      }
+    },
+    {
+      "id": "osm_node_6833676089",
+      "osm_id": 6833676089,
+      "osm_type": "node",
+      "name_en": "صيدلية المجذوب البيطرية",
+      "name_ar": "صيدلية المجذوب البيطرية",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.536672,
+      "lon": 32.556907,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "addr:street": "شارع افريقيا",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "صيدلية المجذوب البيطرية",
+        "name:ar": "صيدلية المجذوب البيطرية"
+      }
+    },
+    {
+      "id": "osm_node_7008073158",
+      "osm_id": 7008073158,
+      "osm_type": "node",
+      "name_en": "مطعم الفاتح بروست",
+      "name_ar": "مطعم الفاتح بروست",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.541541,
+      "lon": 32.556,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم الفاتح بروست"
+      }
+    },
+    {
+      "id": "osm_node_7019857696",
+      "osm_id": 7019857696,
+      "osm_type": "node",
+      "name_en": "صيدليو اوليف",
+      "name_ar": "صيدليو اوليف",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.547007,
+      "lon": 32.559867,
+      "area": "Khartoum Central 4",
+      "tags": {
+        "amenity": "pharmacy",
+        "drive_through": "no",
+        "name": "صيدليو اوليف"
+      }
+    },
+    {
+      "id": "osm_node_49356480",
+      "osm_id": 49356480,
+      "osm_type": "node",
+      "name_en": "البنك السوداني الفرنسي",
+      "name_ar": "البنك السوداني الفرنسي",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.60262,
+      "lon": 32.528687,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "البنك السوداني الفرنسي",
+        "name:ar": "البنك السوداني الفرنسي",
+        "name:en": "Sudanese French Bank"
+      }
+    },
+    {
+      "id": "osm_node_998604355",
+      "osm_id": 998604355,
+      "osm_type": "node",
+      "name_en": "بابا كوستا",
+      "name_ar": "بابا كوستا",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.605546,
+      "lon": 32.530355,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع الجمهورية",
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "name": "بابا كوستا",
+        "name:ar": "بابا كوستا",
+        "name:en": "Papa Costa"
+      }
+    },
+    {
+      "id": "osm_node_1065981449",
+      "osm_id": 1065981449,
+      "osm_type": "node",
+      "name_en": "كوكي بيرقر",
+      "name_ar": "كوكي بيرقر",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.605486,
+      "lon": 32.529962,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "name": "كوكي بيرقر",
+        "name:ar": "كوكي بيرقر",
+        "name:en": "Kookie Burger"
+      }
+    },
+    {
+      "id": "osm_node_1858446110",
+      "osm_id": 1858446110,
+      "osm_type": "node",
+      "name_en": "بنك السودان المركزي فرع الخرطوم",
+      "name_ar": "بنك السودان المركزي",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.604402,
+      "lon": 32.539722,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "بنك السودان المركزي فرع الخرطوم",
+        "name:ar": "بنك السودان المركزي",
+        "name:en": "Central Bank Of Sudan Khartoum Branch"
+      }
+    },
+    {
+      "id": "osm_node_1858453516",
+      "osm_id": 1858453516,
+      "osm_type": "node",
+      "name_en": "بنك امدرمان الوطني فرع القيادة",
+      "name_ar": "بنك امدرمان الوطني فرع القيادة",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.601286,
+      "lon": 32.538456,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع السيد عبد الرحمن",
+        "amenity": "bank",
+        "name": "بنك امدرمان الوطني فرع القيادة",
+        "name:ar": "بنك امدرمان الوطني فرع القيادة",
+        "name:en": "Omdurman National Bank Giada Branch"
+      }
+    },
+    {
+      "id": "osm_node_2139243059",
+      "osm_id": 2139243059,
+      "osm_type": "node",
+      "name_en": "مصرف المزارع التجاري",
+      "name_ar": "مصرف المزارع التجاري",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.603906,
+      "lon": 32.528421,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "مصرف المزارع التجاري",
+        "name:en": "Farmer's' Commercial Bank"
+      }
+    },
+    {
+      "id": "osm_node_3120606172",
+      "osm_id": 3120606172,
+      "osm_type": "node",
+      "name_en": "مصرف المزارع التجاري",
+      "name_ar": "مصرف المزارع التجاري",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.60361,
+      "lon": 32.528597,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "مصرف المزارع التجاري",
+        "name:ar": "مصرف المزارع التجاري",
+        "name:en": "FCB"
+      }
+    },
+    {
+      "id": "osm_node_4359863897",
+      "osm_id": 4359863897,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.603593,
+      "lon": 32.529458,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "id": "osm_node_4359884098",
+      "osm_id": 4359884098,
+      "osm_type": "node",
+      "name_en": "كلية كمبوني",
+      "name_ar": "كلية كمبوني",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.601074,
+      "lon": 32.528581,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "school",
+        "name": "كلية كمبوني",
+        "name:ar": "كلية كمبوني",
+        "name:en": "Comboni College"
+      }
+    },
+    {
+      "id": "osm_node_4494001592",
+      "osm_id": 4494001592,
+      "osm_type": "node",
+      "name_en": "المعهد الامريكي",
+      "name_ar": "المعهد الامريكي",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.601609,
+      "lon": 32.52362,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "17th Street",
+        "amenity": "school",
+        "name": "المعهد الامريكي",
+        "name:ar": "المعهد الامريكي"
+      }
+    },
+    {
+      "id": "osm_node_4621212393",
+      "osm_id": 4621212393,
+      "osm_type": "node",
+      "name_en": "مختبرات البرج",
+      "name_ar": "مختبرات البرج",
+      "category_en": "clinic",
+      "category_ar": "عيادة",
+      "lat": 15.600482,
+      "lon": 32.534243,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع السيد عبد الرحمن",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "مختبرات البرج",
+        "name:ar": "مختبرات البرج",
+        "name:en": "Al Borg Laboratory"
+      }
+    },
+    {
+      "id": "osm_node_4621246189",
+      "osm_id": 4621246189,
+      "osm_type": "node",
+      "name_en": "عشميق",
+      "name_ar": "مركز عشميق",
+      "category_en": "clinic",
+      "category_ar": "عيادة",
+      "lat": 15.602869,
+      "lon": 32.534898,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "عشميق",
+        "name:ar": "مركز عشميق",
+        "name:en": "Ashmeag"
+      }
+    },
+    {
+      "id": "osm_node_5189175821",
+      "osm_id": 5189175821,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.607332,
+      "lon": 32.530159,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "atm",
+        "operator": "السجل التجاري"
+      }
+    },
+    {
+      "id": "osm_node_5985039685",
+      "osm_id": 5985039685,
+      "osm_type": "node",
+      "name_en": "Yellow Fever Vaccination Clinic",
+      "name_ar": "Yellow Fever Vaccination Clinic",
+      "category_en": "clinic",
+      "category_ar": "عيادة",
+      "lat": 15.600248,
+      "lon": 32.526985,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Yellow Fever Vaccination Clinic"
+      }
+    },
+    {
+      "id": "osm_node_6009874685",
+      "osm_id": 6009874685,
+      "osm_type": "node",
+      "name_en": "Omega store",
+      "name_ar": "اوميقا استور",
+      "category_en": "mobile_phone",
+      "category_ar": "محل موبايل",
+      "lat": 15.600152,
+      "lon": 32.523044,
+      "area": "Khartoum North",
+      "tags": {
+        "name": "Omega store",
+        "name:ar": "اوميقا استور",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "id": "osm_node_6010612308",
+      "osm_id": 6010612308,
+      "osm_type": "node",
+      "name_en": "مركز الفاروق للتسوق",
+      "name_ar": "مركز الفاروق للتسوق",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.609027,
+      "lon": 32.538898,
+      "area": "Khartoum North",
+      "tags": {
+        "name": "مركز الفاروق للتسوق",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_6010684564",
+      "osm_id": 6010684564,
+      "osm_type": "node",
+      "name_en": "بنك ابو ظبي الوطني",
+      "name_ar": "بنك أبوظبي الوطني",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.60752,
+      "lon": 32.532603,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك ابو ظبي الوطني",
+        "name:ar": "بنك أبوظبي الوطني",
+        "name:en": "National Bank of Abu Dhabi"
+      }
+    },
+    {
+      "id": "osm_node_6010684566",
+      "osm_id": 6010684566,
+      "osm_type": "node",
+      "name_en": "بنك السلام",
+      "name_ar": "بنك السلام",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.607668,
+      "lon": 32.531519,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك السلام",
+        "name:ar": "بنك السلام",
+        "name:en": "Al Salam Bank"
+      }
+    },
+    {
+      "id": "osm_node_6010786241",
+      "osm_id": 6010786241,
+      "osm_type": "node",
+      "name_en": "بنك الخرطوم",
+      "name_ar": "بنك الخرطوم",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.607226,
+      "lon": 32.524564,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك الخرطوم",
+        "name:ar": "بنك الخرطوم",
+        "name:en": "Bank of Khartoum"
+      }
+    },
+    {
+      "id": "osm_node_6010786242",
+      "osm_id": 6010786242,
+      "osm_type": "node",
+      "name_en": "صيدلية الشهيد محمد عمار",
+      "name_ar": "صيدلية الشهيد محمد عمار",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.606614,
+      "lon": 32.524255,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "صيدلية الشهيد محمد عمار",
+        "name:ar": "صيدلية الشهيد محمد عمار",
+        "name:en": "Alshahed Mohamed Amar Pharmacy"
+      }
+    },
+    {
+      "id": "osm_node_6013563988",
+      "osm_id": 6013563988,
+      "osm_type": "node",
+      "name_en": "بنك المزارع",
+      "name_ar": "بنك المزارع",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.604541,
+      "lon": 32.523598,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك المزارع",
+        "name:ar": "بنك المزارع"
+      }
+    },
+    {
+      "id": "osm_node_6013563989",
+      "osm_id": 6013563989,
+      "osm_type": "node",
+      "name_en": "Alsenieih Cafe",
+      "name_ar": "Alsenieih Cafe",
+      "category_en": "cafe",
+      "category_ar": "مقهى",
+      "lat": 15.604579,
+      "lon": 32.523988,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "cafe",
+        "name": "Alsenieih Cafe"
+      }
+    },
+    {
+      "id": "osm_node_6013563991",
+      "osm_id": 6013563991,
+      "osm_type": "node",
+      "name_en": "أويليبيا",
+      "name_ar": "أويليبيا",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.604175,
+      "lon": 32.524773,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "addr:street": "شارع الزبير باشا",
+        "addr:street:ar": "شارع الزبير باشا",
+        "alt_name": "نفط ليبيا;أويل ليبيا",
+        "alt_name:ar": "نفط ليبيا;أويل ليبيا",
+        "amenity": "fuel",
+        "brand": "أويليبيا",
+        "brand:ar": "أويليبيا",
+        "brand:wikidata": "Q7081491",
+        "brand:wikipedia": "ar:أويليبيا",
+        "brand:wikipedia:ar": "أويليبيا",
+        "language:ar": "main",
+        "name": "أويليبيا",
+        "name:ar": "أويليبيا",
+        "name:en": "Oilibya",
+        "operator": "أويليبيا",
+        "operator:ar": "أويليبيا",
+        "operator:wikidata": "Q7081491",
+        "operator:wikipedia": "ar:أويليبيا",
+        "operator:wikipedia:ar": "أويليبيا",
+        "self_service": "no"
+      }
+    },
+    {
+      "id": "osm_node_6013563993",
+      "osm_id": 6013563993,
+      "osm_type": "node",
+      "name_en": "صيدلية كمبال",
+      "name_ar": "صيدلية كمبال",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.60471,
+      "lon": 32.524567,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "صيدلية كمبال",
+        "name:ar": "صيدلية كمبال",
+        "name:en": "Kambal Pharmacy"
+      }
+    },
+    {
+      "id": "osm_node_6013606310",
+      "osm_id": 6013606310,
+      "osm_type": "node",
+      "name_en": "بنك النيلين",
+      "name_ar": "بنك النيلين",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.602604,
+      "lon": 32.522345,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك النيلين"
+      }
+    },
+    {
+      "id": "osm_node_6013610715",
+      "osm_id": 6013610715,
+      "osm_type": "node",
+      "name_en": "بنك اشمال الاسلامي",
+      "name_ar": "بنك اشمال الاسلامي",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.603482,
+      "lon": 32.522134,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك اشمال الاسلامي"
+      }
+    },
+    {
+      "id": "osm_node_6013771005",
+      "osm_id": 6013771005,
+      "osm_type": "node",
+      "name_en": "بنك النيل فرع البرلمان",
+      "name_ar": "بنك النيل فرع البرلمان",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.605434,
+      "lon": 32.523443,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك النيل فرع البرلمان",
+        "name:en": "Nile Bank"
+      }
+    },
+    {
+      "id": "osm_node_6013771008",
+      "osm_id": 6013771008,
+      "osm_type": "node",
+      "name_en": "بنك الخليج",
+      "name_ar": "بنك الخليج",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.604957,
+      "lon": 32.525972,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع الجمهورية",
+        "amenity": "bank",
+        "name": "بنك الخليج"
+      }
+    },
+    {
+      "id": "osm_node_6013771009",
+      "osm_id": 6013771009,
+      "osm_type": "node",
+      "name_en": "بنك فيصل الاسلامي",
+      "name_ar": "بنك فيصل الاسلامي السوداني",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.604999,
+      "lon": 32.526223,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك فيصل الاسلامي",
+        "name:ar": "بنك فيصل الاسلامي السوداني",
+        "name:en": "Faisal Islamic Bank"
+      }
+    },
+    {
+      "id": "osm_node_6013771013",
+      "osm_id": 6013771013,
+      "osm_type": "node",
+      "name_en": "الوافي تكنلوجي",
+      "name_ar": "الوافي تكنلوجي",
+      "category_en": "electronics",
+      "category_ar": "إلكترونيات",
+      "lat": 15.604545,
+      "lon": 32.526327,
+      "area": "Khartoum North",
+      "tags": {
+        "name": "الوافي تكنلوجي",
+        "shop": "electronics"
+      }
+    },
+    {
+      "id": "osm_node_6013771014",
+      "osm_id": 6013771014,
+      "osm_type": "node",
+      "name_en": "تارا فون",
+      "name_ar": "تارا فون",
+      "category_en": "electronics",
+      "category_ar": "إلكترونيات",
+      "lat": 15.604326,
+      "lon": 32.526185,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع الزبير باشا",
+        "name": "تارا فون",
+        "shop": "electronics"
+      }
+    },
+    {
+      "id": "osm_node_6013771015",
+      "osm_id": 6013771015,
+      "osm_type": "node",
+      "name_en": "بنك الخرطوم الفرع الرئيسي",
+      "name_ar": "بنك الخرطوم الفرع الرئيسي",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.605503,
+      "lon": 32.527626,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع القصر",
+        "amenity": "bank",
+        "drive_through": "no",
+        "name": "بنك الخرطوم الفرع الرئيسي",
+        "name:en": "Bank Of Khartoum HQ"
+      }
+    },
+    {
+      "id": "osm_node_6025099489",
+      "osm_id": 6025099489,
+      "osm_type": "node",
+      "name_en": "بنك الجزيرة السوداني الاردني",
+      "name_ar": "بنك الجزيرة السوداني الاردني",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.605815,
+      "lon": 32.528083,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك الجزيرة السوداني الاردني",
+        "name:ar": "بنك الجزيرة السوداني الاردني",
+        "name:en": "Al Jazeera Sudanese Jordanian Bank"
+      }
+    },
+    {
+      "id": "osm_node_6025117778",
+      "osm_id": 6025117778,
+      "osm_type": "node",
+      "name_en": "بنك الخرطوم فرع البرلمان",
+      "name_ar": "بنك الخرطوم فرع البرلمان",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.605941,
+      "lon": 32.527516,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع البرلمان",
+        "amenity": "bank",
+        "name": "بنك الخرطوم فرع البرلمان",
+        "name:en": "Bank Of Khartoum Parliament Branch"
+      }
+    },
+    {
+      "id": "osm_node_6711319927",
+      "osm_id": 6711319927,
+      "osm_type": "node",
+      "name_en": "بنك امدرمان الوطني -فرع الخرطوم",
+      "name_ar": "بنك امدرمان الوطني -فرع الخرطوم",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.604605,
+      "lon": 32.527913,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع الزبير باشا",
+        "amenity": "bank",
+        "drive_through": "no",
+        "name": "بنك امدرمان الوطني -فرع الخرطوم",
+        "name:ar": "بنك امدرمان الوطني -فرع الخرطوم",
+        "name:en": "Omdurman National Bank - Khartoum Branch"
+      }
+    },
+    {
+      "id": "osm_node_6711336050",
+      "osm_id": 6711336050,
+      "osm_type": "node",
+      "name_en": "رئاسة بنك امدرمان الوطني",
+      "name_ar": "رئاسة بنك امدرمان الوطني",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.604475,
+      "lon": 32.527313,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع الزبير باشا",
+        "amenity": "bank",
+        "drive_through": "no",
+        "name": "رئاسة بنك امدرمان الوطني",
+        "name:ar": "رئاسة بنك امدرمان الوطني",
+        "name:en": "Omdurman National Bank Headquarter"
+      }
+    },
+    {
+      "id": "osm_node_6796433920",
+      "osm_id": 6796433920,
+      "osm_type": "node",
+      "name_en": "دجاج كاك",
+      "name_ar": "دجاج كاك",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.611456,
+      "lon": 32.535499,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "دجاج كاك"
+      }
+    },
+    {
+      "id": "osm_node_6800509468",
+      "osm_id": 6800509468,
+      "osm_type": "node",
+      "name_en": "صراف بنك فيصل الإسلامي",
+      "name_ar": "صراف بنك فيصل الإسلامي",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.606706,
+      "lon": 32.523324,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "atm",
+        "name": "صراف بنك فيصل الإسلامي",
+        "operator": "بنك فيصل الإسلامي"
+      }
+    },
+    {
+      "id": "osm_node_6814971178",
+      "osm_id": 6814971178,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.60484,
+      "lon": 32.527863,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "atm",
+        "cash_in": "no",
+        "description": "صراف الي بنك امدرمان الوطني , فاتح علي شارع القصر",
+        "drive_through": "no",
+        "operator": "بنك امدرمان الوطني"
+      }
+    },
+    {
+      "id": "osm_node_6817900285",
+      "osm_id": 6817900285,
+      "osm_type": "node",
+      "name_en": "الخرطوم تاون",
+      "name_ar": "الخرطوم تاون",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.603518,
+      "lon": 32.524981,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "الخرطوم تاون",
+        "name:ar": "الخرطوم تاون"
+      }
+    },
+    {
+      "id": "osm_node_6828117533",
+      "osm_id": 6828117533,
+      "osm_type": "node",
+      "name_en": "اسماك البربري",
+      "name_ar": "اسماك البربري",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.604937,
+      "lon": 32.530836,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع الزبير باشا",
+        "amenity": "restaurant",
+        "name": "اسماك البربري",
+        "name:ar": "اسماك البربري"
+      }
+    },
+    {
+      "id": "osm_node_6834521688",
+      "osm_id": 6834521688,
+      "osm_type": "node",
+      "name_en": "بنك الخليج",
+      "name_ar": "بنك الخليج",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.604683,
+      "lon": 32.52596,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع الجمهورية",
+        "amenity": "bank",
+        "name": "بنك الخليج"
+      }
+    },
+    {
+      "id": "osm_node_6837842516",
+      "osm_id": 6837842516,
+      "osm_type": "node",
+      "name_en": "بنك التضامن الاسلامي",
+      "name_ar": "بنك التضامن الاسلامي",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.603614,
+      "lon": 32.530497,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع البلدية",
+        "amenity": "bank",
+        "name": "بنك التضامن الاسلامي",
+        "name:ar": "بنك التضامن الاسلامي"
+      }
+    },
+    {
+      "id": "osm_node_6837845653",
+      "osm_id": 6837845653,
+      "osm_type": "node",
+      "name_en": "البنك الاهلي المصري",
+      "name_ar": "البنك الاهلي المصري",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.604337,
+      "lon": 32.533186,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع البلدية",
+        "amenity": "bank",
+        "name": "البنك الاهلي المصري",
+        "name:ar": "البنك الاهلي المصري"
+      }
+    },
+    {
+      "id": "osm_node_6837879581",
+      "osm_id": 6837879581,
+      "osm_type": "node",
+      "name_en": "مطاعم سروجي",
+      "name_ar": "مطاعم سروجي",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.604567,
+      "lon": 32.528772,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع الزبير باشا",
+        "amenity": "restaurant",
+        "name": "مطاعم سروجي",
+        "name:ar": "مطاعم سروجي"
+      }
+    },
+    {
+      "id": "osm_node_6837881474",
+      "osm_id": 6837881474,
+      "osm_type": "node",
+      "name_en": "صحاري للاجهزة الكهربايئة",
+      "name_ar": "صحاري للاجهزة الكهربايئة",
+      "category_en": "electronics",
+      "category_ar": "إلكترونيات",
+      "lat": 15.604816,
+      "lon": 32.529192,
+      "area": "Khartoum North",
+      "tags": {
+        "name": "صحاري للاجهزة الكهربايئة",
+        "name:ar": "صحاري للاجهزة الكهربايئة",
+        "shop": "electronics"
+      }
+    },
+    {
+      "id": "osm_node_6884143764",
+      "osm_id": 6884143764,
+      "osm_type": "node",
+      "name_en": "باب الحارة",
+      "name_ar": "باب الحارة",
+      "category_en": "mobile_phone",
+      "category_ar": "محل موبايل",
+      "lat": 15.604395,
+      "lon": 32.526763,
+      "area": "Khartoum North",
+      "tags": {
+        "name": "باب الحارة",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "id": "osm_node_6953584785",
+      "osm_id": 6953584785,
+      "osm_type": "node",
+      "name_en": "مجمع الواحة التجاري",
+      "name_ar": "مجمع الواحة التجاري",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.603881,
+      "lon": 32.524792,
+      "area": "Khartoum North",
+      "tags": {
+        "name": "مجمع الواحة التجاري",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7038742274",
+      "osm_id": 7038742274,
+      "osm_type": "node",
+      "name_en": "مركز الخرطوم التخصصي للاورام",
+      "name_ar": "مركز الخرطوم التخصصي للاورام",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.603502,
+      "lon": 32.534951,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "oncology",
+        "name": "مركز الخرطوم التخصصي للاورام",
+        "name:ar": "مركز الخرطوم التخصصي للاورام",
+        "name:en": "Khartoum Specialized Center For tumors"
+      }
+    },
+    {
+      "id": "osm_node_7082419601",
+      "osm_id": 7082419601,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "cafe",
+      "category_ar": "مقهى",
+      "lat": 15.609937,
+      "lon": 32.539252,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "id": "osm_node_7227166986",
+      "osm_id": 7227166986,
+      "osm_type": "node",
+      "name_en": "Western Union at MIG bank",
+      "name_ar": "Western Union at MIG bank",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.60383,
+      "lon": 32.531235,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "Western Union at MIG bank"
+      }
+    },
+    {
+      "id": "osm_node_7227178985",
+      "osm_id": 7227178985,
+      "osm_type": "node",
+      "name_en": "Western Union (at Blue Nile Bank)",
+      "name_ar": "Western Union (at Blue Nile Bank)",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.60486,
+      "lon": 32.533782,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "bank",
+        "name": "Western Union (at Blue Nile Bank)"
+      }
+    },
+    {
+      "id": "osm_node_7227204385",
+      "osm_id": 7227204385,
+      "osm_type": "node",
+      "name_en": "وسترن يونيون",
+      "name_ar": "وسترن يونيون",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.603574,
+      "lon": 32.529533,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "alt_name:ar": "ويسترن يونيون;الاتحاد الغربي",
+        "amenity": "bank",
+        "brand": "وسترن يونيون",
+        "brand:ar": "وسترن يونيون",
+        "brand:wikidata": "Q861042",
+        "brand:wikipedia": "ar:ويسترن يونيون",
+        "name": "وسترن يونيون",
+        "name:ar": "وسترن يونيون",
+        "name:en": "Western Union"
+      }
+    },
+    {
+      "id": "osm_node_7227281285",
+      "osm_id": 7227281285,
+      "osm_type": "node",
+      "name_en": "وسترن يونيون",
+      "name_ar": "وسترن يونيون",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.605922,
+      "lon": 32.527456,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "alt_name:ar": "ويسترن يونيون;الاتحاد الغربي",
+        "amenity": "bank",
+        "brand": "وسترن يونيون",
+        "brand:ar": "وسترن يونيون",
+        "brand:wikidata": "Q861042",
+        "brand:wikipedia": "ar:ويسترن يونيون",
+        "name": "وسترن يونيون",
+        "name:ar": "وسترن يونيون",
+        "name:en": "Western Union"
+      }
+    },
+    {
+      "id": "osm_node_7904462760",
+      "osm_id": 7904462760,
+      "osm_type": "node",
+      "name_en": "مركز الاستشارات الجلدية",
+      "name_ar": "مركز الاستشارات الجلدية",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.601776,
+      "lon": 32.531069,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مركز الاستشارات الجلدية",
+        "name:ar": "مركز الاستشارات الجلدية",
+        "name:en": "Dermatology Consultation Center"
+      }
+    },
+    {
+      "id": "osm_node_7904462762",
+      "osm_id": 7904462762,
+      "osm_type": "node",
+      "name_en": "صيدلية الشهيدة سلمي",
+      "name_ar": "صيدلية الشهيدة سلمي",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.600074,
+      "lon": 32.533449,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "صيدلية الشهيدة سلمي"
+      }
+    },
+    {
+      "id": "osm_node_7983980700",
+      "osm_id": 7983980700,
+      "osm_type": "node",
+      "name_en": "مركز الفاضل لطب الأسنان",
+      "name_ar": "مركز الفاضل لطب الأسنان",
+      "category_en": "clinic",
+      "category_ar": "عيادة",
+      "lat": 15.600052,
+      "lon": 32.528579,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع القصر",
+        "amenity": "clinic",
+        "name": "مركز الفاضل لطب الأسنان"
+      }
+    },
+    {
+      "id": "osm_node_7992817885",
+      "osm_id": 7992817885,
+      "osm_type": "node",
+      "name_en": "ABU-SAFA FOR ELECTRONICS",
+      "name_ar": "أبوصفاء للإلكترونيات",
+      "category_en": "electronics",
+      "category_ar": "إلكترونيات",
+      "lat": 15.604946,
+      "lon": 32.529355,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:postcode": "11111",
+        "addr:street": "شارع بابكر بدري",
+        "email": "abusafa895@gmail.com",
+        "internet_access": "wlan",
+        "name": "ABU-SAFA FOR ELECTRONICS",
+        "name:ar": "أبوصفاء للإلكترونيات",
+        "opening_hours": "Sa-Th 08:00-18:00",
+        "phone": "0024926730255",
+        "shop": "electronics"
+      }
+    },
+    {
+      "id": "osm_node_8642470317",
+      "osm_id": 8642470317,
+      "osm_type": "node",
+      "name_en": "إدارة المعامل الخرطوم",
+      "name_ar": "إدارة المعامل الخرطوم",
+      "category_en": "clinic",
+      "category_ar": "عيادة",
+      "lat": 15.600184,
+      "lon": 32.527597,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "clinic",
+        "name": "إدارة المعامل الخرطوم"
+      }
+    },
+    {
+      "id": "osm_node_9327485326",
+      "osm_id": 9327485326,
+      "osm_type": "node",
+      "name_en": "المركز الدولي للسمع المتطور",
+      "name_ar": "المركز الدولي للسمع المتطور",
+      "category_en": "clinic",
+      "category_ar": "عيادة",
+      "lat": 15.601342,
+      "lon": 32.52989,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع بابكر بدري",
+        "amenity": "clinic",
+        "name": "المركز الدولي للسمع المتطور"
+      }
+    },
+    {
+      "id": "osm_node_9327486817",
+      "osm_id": 9327486817,
+      "osm_type": "node",
+      "name_en": "مستشفى براءة للأطفال",
+      "name_ar": "مستشفى براءة للأطفال",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.600902,
+      "lon": 32.530062,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع 21 أكتوبر",
+        "amenity": "hospital",
+        "name": "مستشفى براءة للأطفال",
+        "name:ar": "مستشفى براءة للأطفال",
+        "name:en": "Baraah Childrens Hospital"
+      }
+    },
+    {
+      "id": "osm_node_9872804317",
+      "osm_id": 9872804317,
+      "osm_type": "node",
+      "name_en": "الصندوق القومي للتأمين الصحي الولايات بالظبط",
+      "name_ar": "الصندوق القومي للتأمين الصحي الولايات",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.603123,
+      "lon": 32.530105,
+      "area": "Khartoum North",
+      "tags": {
+        "addr:street": "شارع بابكر بدري",
+        "amenity": "hospital",
+        "name": "الصندوق القومي للتأمين الصحي الولايات بالظبط",
+        "name:ar": "الصندوق القومي للتأمين الصحي الولايات",
+        "name:en": "National Health Insurance Fund"
+      }
+    },
+    {
+      "id": "osm_node_9872804318",
+      "osm_id": 9872804318,
+      "osm_type": "node",
+      "name_en": "مجمع عيادات فتح الرحمن البشير",
+      "name_ar": "مجمع عيادات فتح الرحمن البشير",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.600353,
+      "lon": 32.527571,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "hospital",
+        "name": "مجمع عيادات فتح الرحمن البشير",
+        "name:ar": "مجمع عيادات فتح الرحمن البشير",
+        "name:en": "Fath Al-Rahman Al-Bashir Clinics"
+      }
+    },
+    {
+      "id": "osm_node_9872804417",
+      "osm_id": 9872804417,
+      "osm_type": "node",
+      "name_en": "القمسيون الطبي الخرطوم",
+      "name_ar": "القمسيون الطبي الخرطوم",
+      "category_en": "doctors",
+      "category_ar": "طبيب",
+      "lat": 15.600342,
+      "lon": 32.527577,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "doctors",
+        "name": "القمسيون الطبي الخرطوم"
+      }
+    },
+    {
+      "id": "osm_node_9872804418",
+      "osm_id": 9872804418,
+      "osm_type": "node",
+      "name_en": "الصندوق القومي للتأمين الصحي الولايات",
+      "name_ar": "الصندوق القومي للتأمين الصحي الولايات",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.603113,
+      "lon": 32.529641,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "hospital",
+        "name": "الصندوق القومي للتأمين الصحي الولايات",
+        "name:ar": "الصندوق القومي للتأمين الصحي الولايات",
+        "name:en": "National Health Insurance Fund"
+      }
+    },
+    {
+      "id": "osm_node_10538736046",
+      "osm_id": 10538736046,
+      "osm_type": "node",
+      "name_en": "Comboni College Khartoum (Secondary School)",
+      "name_ar": "Comboni College Khartoum (Secondary School)",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.600877,
+      "lon": 32.527798,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "school",
+        "name": "Comboni College Khartoum (Secondary School)"
+      }
+    },
+    {
+      "id": "osm_node_10779668606",
+      "osm_id": 10779668606,
+      "osm_type": "node",
+      "name_en": "Rooftop. Nice view. You can eat pizza",
+      "name_ar": "Rooftop. Nice view. You can eat pizza",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.606005,
+      "lon": 32.524588,
+      "area": "Khartoum North",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Rooftop. Nice view. You can eat pizza"
+      }
+    },
+    {
+      "id": "osm_node_44885000",
+      "osm_id": 44885000,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.60865,
+      "lon": 32.554543,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "fuel"
+      }
+    },
+    {
+      "id": "osm_node_2845734280",
+      "osm_id": 2845734280,
+      "osm_type": "node",
+      "name_en": "عيادة جامعة الخرطوم",
+      "name_ar": "عيادة جامعة الخرطوم",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.611261,
+      "lon": 32.54529,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "hospital",
+        "name": "عيادة جامعة الخرطوم",
+        "name:ar": "عيادة جامعة الخرطوم",
+        "name:en": "University of Khartoum Clinic"
+      }
+    },
+    {
+      "id": "osm_node_3068937274",
+      "osm_id": 3068937274,
+      "osm_type": "node",
+      "name_en": "صالة المعلم",
+      "name_ar": "صالة المعلم",
+      "category_en": "cafe",
+      "category_ar": "مقهى",
+      "lat": 15.611693,
+      "lon": 32.551596,
+      "area": "Khartoum North 2",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:street": "Gama'a Av.",
+        "amenity": "cafe",
+        "name": "صالة المعلم"
+      }
+    },
+    {
+      "id": "osm_node_4627964790",
+      "osm_id": 4627964790,
+      "osm_type": "node",
+      "name_en": "ملك المنقة",
+      "name_ar": "ملك المنقة",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.600517,
+      "lon": 32.558587,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "ملك المنقة",
+        "name:ar": "ملك المنقة"
+      }
+    },
+    {
+      "id": "osm_node_5117045221",
+      "osm_id": 5117045221,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.614551,
+      "lon": 32.551234,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "id": "osm_node_5392214323",
+      "osm_id": 5392214323,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "cafe",
+      "category_ar": "مقهى",
+      "lat": 15.613857,
+      "lon": 32.543076,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "id": "osm_node_6007346723",
+      "osm_id": 6007346723,
+      "osm_type": "node",
+      "name_en": "مستشفى الرباط الجامعي",
+      "name_ar": "مستشفى الرباط الجامعي",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.611572,
+      "lon": 32.559165,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الرباط الجامعي",
+        "name:ar": "مستشفى الرباط الجامعي",
+        "name:en": "Ribat University Hospital"
+      }
+    },
+    {
+      "id": "osm_node_6007347025",
+      "osm_id": 6007347025,
+      "osm_type": "node",
+      "name_en": "Apple beizz",
+      "name_ar": "Apple beizz",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.608864,
+      "lon": 32.559037,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Apple beizz"
+      }
+    },
+    {
+      "id": "osm_node_6007350725",
+      "osm_id": 6007350725,
+      "osm_type": "node",
+      "name_en": "kit katكيت كات",
+      "name_ar": "kit katكيت كات",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.608833,
+      "lon": 32.559165,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "kit katكيت كات"
+      }
+    },
+    {
+      "id": "osm_node_6007363151",
+      "osm_id": 6007363151,
+      "osm_type": "node",
+      "name_en": "مستشفى الشرطة",
+      "name_ar": "مستشفى الشرطة",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.611243,
+      "lon": 32.55975,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى الشرطة",
+        "name:ar": "مستشفى الشرطة",
+        "name:en": "Police Hospital"
+      }
+    },
+    {
+      "id": "osm_node_6007375734",
+      "osm_id": 6007375734,
+      "osm_type": "node",
+      "name_en": "أدروب تي",
+      "name_ar": "أدروب تي",
+      "category_en": "cafe",
+      "category_ar": "مقهى",
+      "lat": 15.614997,
+      "lon": 32.559596,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "cafe",
+        "name": "أدروب تي"
+      }
+    },
+    {
+      "id": "osm_node_6007637260",
+      "osm_id": 6007637260,
+      "osm_type": "node",
+      "name_en": "بيت السماية",
+      "name_ar": "بيت السماية",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.600422,
+      "lon": 32.55894,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "بيت السماية"
+      }
+    },
+    {
+      "id": "osm_node_6007645204",
+      "osm_id": 6007645204,
+      "osm_type": "node",
+      "name_en": "صيدلية التداوي",
+      "name_ar": "صيدلية التداوي",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.600148,
+      "lon": 32.558763,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "صيدلية التداوي"
+      }
+    },
+    {
+      "id": "osm_node_6007645246",
+      "osm_id": 6007645246,
+      "osm_type": "node",
+      "name_en": "السناري للمواد الغذائية",
+      "name_ar": "السناري للمواد الغذائية",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.600176,
+      "lon": 32.558602,
+      "area": "Khartoum North 2",
+      "tags": {
+        "name": "السناري للمواد الغذائية",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_6010538374",
+      "osm_id": 6010538374,
+      "osm_type": "node",
+      "name_en": "أويليبيا",
+      "name_ar": "أويليبيا",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.610751,
+      "lon": 32.551103,
+      "area": "Khartoum North 2",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "addr:street": "شارع الجامعة",
+        "addr:street:ar": "شارع الجامعة",
+        "alt_name": "نفط ليبيا;أويل ليبيا",
+        "alt_name:ar": "نفط ليبيا;أويل ليبيا",
+        "amenity": "fuel",
+        "brand": "أويليبيا",
+        "brand:ar": "أويليبيا",
+        "brand:wikidata": "Q7081491",
+        "brand:wikipedia": "ar:أويليبيا",
+        "brand:wikipedia:ar": "أويليبيا",
+        "language:ar": "main",
+        "name": "أويليبيا",
+        "name:ar": "أويليبيا",
+        "name:en": "Oilibya",
+        "operator": "أويليبيا",
+        "operator:ar": "أويليبيا",
+        "operator:wikidata": "Q7081491",
+        "operator:wikipedia": "ar:أويليبيا",
+        "operator:wikipedia:ar": "أويليبيا"
+      }
+    },
+    {
+      "id": "osm_node_6010567782",
+      "osm_id": 6010567782,
+      "osm_type": "node",
+      "name_en": "بنك فيصل الاسلامي السوداني فرع جامعة الخرطوم",
+      "name_ar": "بنك فيصل الاسلامي",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.609629,
+      "lon": 32.540904,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك فيصل الاسلامي السوداني فرع جامعة الخرطوم",
+        "name:ar": "بنك فيصل الاسلامي",
+        "name:en": "Faisal Islamic Bank"
+      }
+    },
+    {
+      "id": "osm_node_6018352097",
+      "osm_id": 6018352097,
+      "osm_type": "node",
+      "name_en": "اتحاد المصارف السوداني",
+      "name_ar": "اتحاد المصارف السوداني",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.607851,
+      "lon": 32.543928,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "bank",
+        "name": "اتحاد المصارف السوداني",
+        "name:en": "Sudan Unitid Banks"
+      }
+    },
+    {
+      "id": "osm_node_6046603741",
+      "osm_id": 6046603741,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "cafe",
+      "category_ar": "مقهى",
+      "lat": 15.607876,
+      "lon": 32.549235,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "cafe"
+      }
+    },
+    {
+      "id": "osm_node_6800440754",
+      "osm_id": 6800440754,
+      "osm_type": "node",
+      "name_en": "البيت المصري",
+      "name_ar": "البيت المصري",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.608952,
+      "lon": 32.559842,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "البيت المصري"
+      }
+    },
+    {
+      "id": "osm_node_6800475656",
+      "osm_id": 6800475656,
+      "osm_type": "node",
+      "name_en": "بنك العمال الوطني",
+      "name_ar": "بنك العمال الوطني",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.611097,
+      "lon": 32.552546,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك العمال الوطني"
+      }
+    },
+    {
+      "id": "osm_node_6801726375",
+      "osm_id": 6801726375,
+      "osm_type": "node",
+      "name_en": "Hungry - مطعم هنقري للبيرغر",
+      "name_ar": "Hungry - مطعم هنقري للبيرغر",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.608592,
+      "lon": 32.559763,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Hungry - مطعم هنقري للبيرغر"
+      }
+    },
+    {
+      "id": "osm_node_7038742276",
+      "osm_id": 7038742276,
+      "osm_type": "node",
+      "name_en": "مستشفى العيون",
+      "name_ar": "مستشفى العيون",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.612304,
+      "lon": 32.545318,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى العيون",
+        "name:ar": "مستشفى العيون"
+      }
+    },
+    {
+      "id": "osm_node_7082419603",
+      "osm_id": 7082419603,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.609661,
+      "lon": 32.541135,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "atm"
+      }
+    },
+    {
+      "id": "osm_node_7124829086",
+      "osm_id": 7124829086,
+      "osm_type": "node",
+      "name_en": "طلمبة النحله",
+      "name_ar": "طلمبة النحله",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.600857,
+      "lon": 32.558331,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "fuel",
+        "name": "طلمبة النحله"
+      }
+    },
+    {
+      "id": "osm_node_7294411569",
+      "osm_id": 7294411569,
+      "osm_type": "node",
+      "name_en": "كافتريا بيتي",
+      "name_ar": "كافتريا بيتي",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.608687,
+      "lon": 32.559936,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "كافتريا بيتي"
+      }
+    },
+    {
+      "id": "osm_node_7294441138",
+      "osm_id": 7294441138,
+      "osm_type": "node",
+      "name_en": "سوبر ماركت أبو النذير",
+      "name_ar": "سوبر ماركت أبو النذير",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.608812,
+      "lon": 32.558937,
+      "area": "Khartoum North 2",
+      "tags": {
+        "name": "سوبر ماركت أبو النذير",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7294460945",
+      "osm_id": 7294460945,
+      "osm_type": "node",
+      "name_en": "مكتبة الموسوعة",
+      "name_ar": "مكتبة الموسوعة",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.608812,
+      "lon": 32.559563,
+      "area": "Khartoum North 2",
+      "tags": {
+        "name": "مكتبة الموسوعة",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7305855901",
+      "osm_id": 7305855901,
+      "osm_type": "node",
+      "name_en": "مدرسة عبيد ختم الأساسية - بنين",
+      "name_ar": "مدرسة عبيد ختم الأساسية - بنين",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.606687,
+      "lon": 32.557812,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "school",
+        "name": "مدرسة عبيد ختم الأساسية - بنين"
+      }
+    },
+    {
+      "id": "osm_node_7305859635",
+      "osm_id": 7305859635,
+      "osm_type": "node",
+      "name_en": "مدرسة عبيد حاج الامين",
+      "name_ar": "مدرسة عبيد حاج الامين",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.606813,
+      "lon": 32.557938,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "school",
+        "name": "مدرسة عبيد حاج الامين"
+      }
+    },
+    {
+      "id": "osm_node_7305861694",
+      "osm_id": 7305861694,
+      "osm_type": "node",
+      "name_en": "صيدلية ماما سمية",
+      "name_ar": "صيدلية ماما سمية",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.605187,
+      "lon": 32.557938,
+      "area": "Khartoum North 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "صيدلية ماما سمية"
+      }
+    },
+    {
+      "id": "osm_node_7305865716",
+      "osm_id": 7305865716,
+      "osm_type": "node",
+      "name_en": "مغلق ود الصفا",
+      "name_ar": "مغلق ود الصفا",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.606937,
+      "lon": 32.558312,
+      "area": "Khartoum North 2",
+      "tags": {
+        "name": "مغلق ود الصفا",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_9078273718",
+      "osm_id": 9078273718,
+      "osm_type": "node",
+      "name_en": "مستشفى اللواء عمر ساوي الطبي",
+      "name_ar": "مستشفى اللواء عمر ساوي الطبي",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.612402,
+      "lon": 32.559641,
+      "area": "Khartoum North 2",
+      "tags": {
+        "alt_name:ar": "مستشفى عمر ساوي",
+        "alt_name:en": "Omer Sawi Hospital",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى اللواء عمر ساوي الطبي",
+        "name:ar": "مستشفى اللواء عمر ساوي الطبي",
+        "name:en": "General Omer Sawi Hospital"
+      }
+    },
+    {
+      "id": "osm_node_5543589947",
+      "osm_id": 5543589947,
+      "osm_type": "node",
+      "name_en": "سوق مدني",
+      "name_ar": "سوق مدني",
+      "category_en": "marketplace",
+      "category_ar": "سوق",
+      "lat": 15.648805,
+      "lon": 32.447986,
+      "area": "Omdurman Central",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:country": "SD",
+        "amenity": "marketplace",
+        "name": "سوق مدني",
+        "name:ar": "سوق مدني"
+      }
+    },
+    {
+      "id": "osm_node_6068904558",
+      "osm_id": 6068904558,
+      "osm_type": "node",
+      "name_en": "صيدلية د.خالد",
+      "name_ar": "صيدلية د.خالد",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.646597,
+      "lon": 32.45893,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "صيدلية د.خالد"
+      }
+    },
+    {
+      "id": "osm_node_6068904562",
+      "osm_id": 6068904562,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.646825,
+      "lon": 32.456532,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "atm",
+        "operator": "Faisal Islamic Bank ATM"
+      }
+    },
+    {
+      "id": "osm_node_6068925410",
+      "osm_id": 6068925410,
+      "osm_type": "node",
+      "name_en": "صيدلية محمد سعبد",
+      "name_ar": "صيدلية محمد سعبد",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.647908,
+      "lon": 32.446556,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "صيدلية محمد سعبد",
+        "name:ar": "صيدلية محمد سعبد"
+      }
+    },
+    {
+      "id": "osm_node_7166065433",
+      "osm_id": 7166065433,
+      "osm_type": "node",
+      "name_en": "ادم للاسماك",
+      "name_ar": "ادم للاسماك",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.633938,
+      "lon": 32.459938,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "ادم للاسماك"
+      }
+    },
+    {
+      "id": "osm_node_7166117586",
+      "osm_id": 7166117586,
+      "osm_type": "node",
+      "name_en": "مدرسة امبدة جنوب النموذجية بنين",
+      "name_ar": "مدرسة امبدة جنوب النموذجية بنين",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.643687,
+      "lon": 32.459686,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "school",
+        "name": "مدرسة امبدة جنوب النموذجية بنين"
+      }
+    },
+    {
+      "id": "osm_node_7166133016",
+      "osm_id": 7166133016,
+      "osm_type": "node",
+      "name_en": "حلويات دانا",
+      "name_ar": "حلويات دانا",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.630062,
+      "lon": 32.459564,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "حلويات دانا",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166750471",
+      "osm_id": 7166750471,
+      "osm_type": "node",
+      "name_en": "كافتريا عالم المساء",
+      "name_ar": "كافتريا عالم المساء",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.633813,
+      "lon": 32.445061,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "كافتريا عالم المساء"
+      }
+    },
+    {
+      "id": "osm_node_7166752586",
+      "osm_id": 7166752586,
+      "osm_type": "node",
+      "name_en": "بقالة ذات العماد",
+      "name_ar": "بقالة ذات العماد",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.632063,
+      "lon": 32.445061,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "بقالة ذات العماد",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166763659",
+      "osm_id": 7166763659,
+      "osm_type": "node",
+      "name_en": "باتوري للحلويات",
+      "name_ar": "باتوري للحلويات",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.632688,
+      "lon": 32.445187,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "باتوري للحلويات",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166790234",
+      "osm_id": 7166790234,
+      "osm_type": "node",
+      "name_en": "الوليد للمناسبات",
+      "name_ar": "الوليد للمناسبات",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.639438,
+      "lon": 32.446938,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "الوليد للمناسبات",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166801650",
+      "osm_id": 7166801650,
+      "osm_type": "node",
+      "name_en": "مغلق خليل",
+      "name_ar": "مغلق خليل",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.639563,
+      "lon": 32.447189,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "مغلق خليل",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166803711",
+      "osm_id": 7166803711,
+      "osm_type": "node",
+      "name_en": "مدرسة الحميراء - امبدة ال9",
+      "name_ar": "مدرسة الحميراء - امبدة ال9",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.638562,
+      "lon": 32.454189,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "school",
+        "name": "مدرسة الحميراء - امبدة ال9"
+      }
+    },
+    {
+      "id": "osm_node_7166803868",
+      "osm_id": 7166803868,
+      "osm_type": "node",
+      "name_en": "مجمع السبيل للغاز",
+      "name_ar": "مجمع السبيل للغاز",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.638938,
+      "lon": 32.451687,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "مجمع السبيل للغاز",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166808664",
+      "osm_id": 7166808664,
+      "osm_type": "node",
+      "name_en": "دكان العربي",
+      "name_ar": "دكان العربي",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.638812,
+      "lon": 32.447189,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "دكان العربي",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166810892",
+      "osm_id": 7166810892,
+      "osm_type": "node",
+      "name_en": "بقالة انعام",
+      "name_ar": "بقالة انعام",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.639313,
+      "lon": 32.449936,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "بقالة انعام",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166811841",
+      "osm_id": 7166811841,
+      "osm_type": "node",
+      "name_en": "سامح استور",
+      "name_ar": "سامح استور",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.638562,
+      "lon": 32.457313,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "سامح استور",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166815589",
+      "osm_id": 7166815589,
+      "osm_type": "node",
+      "name_en": "مخبز ابو نزار",
+      "name_ar": "مخبز ابو نزار",
+      "category_en": "bakery",
+      "category_ar": "مخبز",
+      "lat": 15.638562,
+      "lon": 32.458439,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "مخبز ابو نزار",
+        "shop": "bakery"
+      }
+    },
+    {
+      "id": "osm_node_7166820978",
+      "osm_id": 7166820978,
+      "osm_type": "node",
+      "name_en": "ملوك الصبة للسندويتشات",
+      "name_ar": "ملوك الصبة للسندويتشات",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.638437,
+      "lon": 32.459686,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "ملوك الصبة للسندويتشات"
+      }
+    },
+    {
+      "id": "osm_node_7167399149",
+      "osm_id": 7167399149,
+      "osm_type": "node",
+      "name_en": "صيدلية ود موسى 5",
+      "name_ar": "صيدلية ود موسى 5",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.647938,
+      "lon": 32.450062,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية ود موسى 5"
+      }
+    },
+    {
+      "id": "osm_node_7167428461",
+      "osm_id": 7167428461,
+      "osm_type": "node",
+      "name_en": "ملك الطعمية - ود البشير",
+      "name_ar": "ملك الطعمية - ود البشير",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.646937,
+      "lon": 32.457313,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "ملك الطعمية - ود البشير"
+      }
+    },
+    {
+      "id": "osm_node_7167432445",
+      "osm_id": 7167432445,
+      "osm_type": "node",
+      "name_en": "عكاشة للاثاث",
+      "name_ar": "عكاشة للاثاث",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.648188,
+      "lon": 32.445187,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "عكاشة للاثاث",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7167447658",
+      "osm_id": 7167447658,
+      "osm_type": "node",
+      "name_en": "بقالة القدس",
+      "name_ar": "بقالة القدس",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.647062,
+      "lon": 32.456188,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "بقالة القدس",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7167456976",
+      "osm_id": 7167456976,
+      "osm_type": "node",
+      "name_en": "مخابز ابو عمار",
+      "name_ar": "مخابز ابو عمار",
+      "category_en": "bakery",
+      "category_ar": "مخبز",
+      "lat": 15.648313,
+      "lon": 32.448063,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "مخابز ابو عمار",
+        "shop": "bakery"
+      }
+    },
+    {
+      "id": "osm_node_7167467378",
+      "osm_id": 7167467378,
+      "osm_type": "node",
+      "name_en": "فال القمر للتسوق",
+      "name_ar": "فال القمر للتسوق",
+      "category_en": "marketplace",
+      "category_ar": "سوق",
+      "lat": 15.646438,
+      "lon": 32.459938,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "marketplace",
+        "name": "فال القمر للتسوق"
+      }
+    },
+    {
+      "id": "osm_node_7167482169",
+      "osm_id": 7167482169,
+      "osm_type": "node",
+      "name_en": "جزارة ود ابو شقة",
+      "name_ar": "جزارة ود ابو شقة",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.646063,
+      "lon": 32.459938,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "جزارة ود ابو شقة"
+      }
+    },
+    {
+      "id": "osm_node_7167482807",
+      "osm_id": 7167482807,
+      "osm_type": "node",
+      "name_en": "ملحمة وشواية حاتم",
+      "name_ar": "ملحمة وشواية حاتم",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.646563,
+      "lon": 32.457062,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "ملحمة وشواية حاتم",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7167484350",
+      "osm_id": 7167484350,
+      "osm_type": "node",
+      "name_en": "صيدلية بشارة 2",
+      "name_ar": "صيدلية بشارة 2",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.648063,
+      "lon": 32.452187,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية بشارة 2"
+      }
+    },
+    {
+      "id": "osm_node_7167486908",
+      "osm_id": 7167486908,
+      "osm_type": "node",
+      "name_en": "صرافي الي بنك فيصل الإسلامي",
+      "name_ar": "صرافي الي بنك فيصل الإسلامي",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.646812,
+      "lon": 32.456562,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "atm",
+        "name": "صرافي الي بنك فيصل الإسلامي"
+      }
+    },
+    {
+      "id": "osm_node_7167488136",
+      "osm_id": 7167488136,
+      "osm_type": "node",
+      "name_en": "حلواني ديمبا",
+      "name_ar": "حلواني ديمبا",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.647688,
+      "lon": 32.454563,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "حلواني ديمبا",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7167491260",
+      "osm_id": 7167491260,
+      "osm_type": "node",
+      "name_en": "تويتر للهدايا",
+      "name_ar": "تويتر للهدايا",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.648063,
+      "lon": 32.449188,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "تويتر للهدايا",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7167499596",
+      "osm_id": 7167499596,
+      "osm_type": "node",
+      "name_en": "صيدلية محمد سعيد - ش ود البشير",
+      "name_ar": "صيدلية محمد سعيد - ش ود البشير",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.647813,
+      "lon": 32.446564,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية محمد سعيد - ش ود البشير"
+      }
+    },
+    {
+      "id": "osm_node_7170166699",
+      "osm_id": 7170166699,
+      "osm_type": "node",
+      "name_en": "بقالة الزاكيابي",
+      "name_ar": "بقالة الزاكيابي",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.647688,
+      "lon": 32.440189,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "بقالة الزاكيابي",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7170176855",
+      "osm_id": 7170176855,
+      "osm_type": "node",
+      "name_en": "مسجد الختمية بامبدة",
+      "name_ar": "مسجد الختمية بامبدة",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.648313,
+      "lon": 32.443687,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "مسجد الختمية بامبدة",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7170177528",
+      "osm_id": 7170177528,
+      "osm_type": "node",
+      "name_en": "صيدلية البجراوية",
+      "name_ar": "صيدلية البجراوية",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.648188,
+      "lon": 32.440937,
+      "area": "Omdurman Central",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية البجراوية"
+      }
+    },
+    {
+      "id": "osm_node_7170177596",
+      "osm_id": 7170177596,
+      "osm_type": "node",
+      "name_en": "بقالة حسن برقو",
+      "name_ar": "بقالة حسن برقو",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.649813,
+      "lon": 32.442436,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "بقالة حسن برقو",
+        "name:ar": "بقالة حسن برقو",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7170185588",
+      "osm_id": 7170185588,
+      "osm_type": "node",
+      "name_en": "دكان كمال",
+      "name_ar": "دكان كمال",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.644937,
+      "lon": 32.454437,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "دكان كمال",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7170188395",
+      "osm_id": 7170188395,
+      "osm_type": "node",
+      "name_en": "بقالة العربي",
+      "name_ar": "بقالة العربي",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.649062,
+      "lon": 32.451687,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "بقالة العربي",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7170193086",
+      "osm_id": 7170193086,
+      "osm_type": "node",
+      "name_en": "مخبز الشمالية",
+      "name_ar": "مخبز الشمالية",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.643812,
+      "lon": 32.456062,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "مخبز الشمالية",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7170193385",
+      "osm_id": 7170193385,
+      "osm_type": "node",
+      "name_en": "بقالة لينا",
+      "name_ar": "بقالة لينا",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.645812,
+      "lon": 32.452061,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "بقالة لينا",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7170193786",
+      "osm_id": 7170193786,
+      "osm_type": "node",
+      "name_en": "بقالة عبد الدائم",
+      "name_ar": "بقالة عبد الدائم",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.643937,
+      "lon": 32.456436,
+      "area": "Omdurman Central",
+      "tags": {
+        "name": "بقالة عبد الدائم",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7216902086",
+      "osm_id": 7216902086,
+      "osm_type": "node",
+      "name_en": "Salamat Center Care",
+      "name_ar": "مركز سلامات كير",
+      "category_en": "clinic",
+      "category_ar": "عيادة",
+      "lat": 15.638651,
+      "lon": 32.447962,
+      "area": "Omdurman Central",
+      "tags": {
+        "addr:street": "المحافظ",
+        "amenity": "clinic",
+        "name": "Salamat Center Care",
+        "name:ar": "مركز سلامات كير",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm_node_44859427",
+      "osm_id": 44859427,
+      "osm_type": "node",
+      "name_en": "أويليبيا",
+      "name_ar": "أويليبيا",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.646147,
+      "lon": 32.461283,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "addr:city": "أم درمان",
+        "addr:city:ar": "أم درمان",
+        "alt_name": "نفط ليبيا;أويل ليبيا",
+        "alt_name:ar": "نفط ليبيا;أويل ليبيا",
+        "amenity": "fuel",
+        "brand": "أويليبيا",
+        "brand:ar": "أويليبيا",
+        "brand:wikidata": "Q7081491",
+        "brand:wikipedia": "ar:أويليبيا",
+        "brand:wikipedia:ar": "أويليبيا",
+        "language:ar": "main",
+        "name": "أويليبيا",
+        "name:ar": "أويليبيا",
+        "name:en": "Oilibya",
+        "operator": "أويليبيا",
+        "operator:ar": "أويليبيا",
+        "operator:wikidata": "Q7081491",
+        "operator:wikipedia": "ar:أويليبيا",
+        "operator:wikipedia:ar": "أويليبيا"
+      }
+    },
+    {
+      "id": "osm_node_4638756490",
+      "osm_id": 4638756490,
+      "osm_type": "node",
+      "name_en": "صيدلية مركزصلاح الطبي",
+      "name_ar": "صيدلية مركزصلاح الطبي",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.641296,
+      "lon": 32.461302,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "addr:street": "شارع امبدة الواجهة",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "صيدلية مركزصلاح الطبي",
+        "name:ar": "صيدلية مركزصلاح الطبي"
+      }
+    },
+    {
+      "id": "osm_node_4638756491",
+      "osm_id": 4638756491,
+      "osm_type": "node",
+      "name_en": "مخبز ابو تيسير",
+      "name_ar": "مخبز ابو تيسير",
+      "category_en": "bakery",
+      "category_ar": "مخبز",
+      "lat": 15.642226,
+      "lon": 32.46094,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "addr:street": "شارع امبدة الواجهة",
+        "name": "مخبز ابو تيسير",
+        "name:ar": "مخبز ابو تيسير",
+        "shop": "bakery"
+      }
+    },
+    {
+      "id": "osm_node_4693068294",
+      "osm_id": 4693068294,
+      "osm_type": "node",
+      "name_en": "كلية دراسات العليا جامعة أمدرمان الإسلامية",
+      "name_ar": "كلية دراسات العليا جامعة أمدرمان الإسلامية",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.646562,
+      "lon": 32.473111,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "school",
+        "name": "كلية دراسات العليا جامعة أمدرمان الإسلامية",
+        "name:ar": "كلية دراسات العليا جامعة أمدرمان الإسلامية"
+      }
+    },
+    {
+      "id": "osm_node_5644350256",
+      "osm_id": 5644350256,
+      "osm_type": "node",
+      "name_en": "زريبة الاخشاب",
+      "name_ar": "زريبة الاخشاب",
+      "category_en": "marketplace",
+      "category_ar": "سوق",
+      "lat": 15.634477,
+      "lon": 32.474594,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "marketplace",
+        "description": "سوق لبيع الاخشاب والمنتجات الغابية",
+        "name": "زريبة الاخشاب",
+        "name:en": "wood market"
+      }
+    },
+    {
+      "id": "osm_node_6068419983",
+      "osm_id": 6068419983,
+      "osm_type": "node",
+      "name_en": "مطعم البيت اليمني",
+      "name_ar": "مطعم البيت اليمني",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.642056,
+      "lon": 32.477624,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم البيت اليمني"
+      }
+    },
+    {
+      "id": "osm_node_6068419984",
+      "osm_id": 6068419984,
+      "osm_type": "node",
+      "name_en": "مطعم سبأ اليمني",
+      "name_ar": "مطعم سبأ اليمني",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.64281,
+      "lon": 32.477828,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم سبأ اليمني"
+      }
+    },
+    {
+      "id": "osm_node_6068425285",
+      "osm_id": 6068425285,
+      "osm_type": "node",
+      "name_en": "مطعم الجواد",
+      "name_ar": "مطعم الجواد",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.641023,
+      "lon": 32.479899,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم الجواد"
+      }
+    },
+    {
+      "id": "osm_node_6068440881",
+      "osm_id": 6068440881,
+      "osm_type": "node",
+      "name_en": "مطعم البردي",
+      "name_ar": "مطعم البردي",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.641322,
+      "lon": 32.470629,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم البردي"
+      }
+    },
+    {
+      "id": "osm_node_6068547035",
+      "osm_id": 6068547035,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.64348,
+      "lon": 32.466357,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "atm",
+        "operator": "Omdurman National Bank, Hajjar dorms ATM"
+      }
+    },
+    {
+      "id": "osm_node_6068732644",
+      "osm_id": 6068732644,
+      "osm_type": "node",
+      "name_en": "سوپرمارکت بحر للتسوق",
+      "name_ar": "سوپرمارکت بحر للتسوق",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.645107,
+      "lon": 32.465106,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "سوپرمارکت بحر للتسوق",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_6068785311",
+      "osm_id": 6068785311,
+      "osm_type": "node",
+      "name_en": "المبشر للاستثمار",
+      "name_ar": "المبشر للاستثمار",
+      "category_en": "electronics",
+      "category_ar": "إلكترونيات",
+      "lat": 15.644495,
+      "lon": 32.464382,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "المبشر للاستثمار",
+        "shop": "electronics"
+      }
+    },
+    {
+      "id": "osm_node_6068904555",
+      "osm_id": 6068904555,
+      "osm_type": "node",
+      "name_en": "بنك الخرطوم فرع العرضة",
+      "name_ar": "بنك الخرطوم فرع العرضة",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.645626,
+      "lon": 32.461483,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك الخرطوم فرع العرضة"
+      }
+    },
+    {
+      "id": "osm_node_6068904556",
+      "osm_id": 6068904556,
+      "osm_type": "node",
+      "name_en": "صيدلية ود البشير",
+      "name_ar": "صيدلية ود البشير",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.646339,
+      "lon": 32.460845,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "صيدلية ود البشير"
+      }
+    },
+    {
+      "id": "osm_node_6795201842",
+      "osm_id": 6795201842,
+      "osm_type": "node",
+      "name_en": "سوبرماركت سجى",
+      "name_ar": "سوبرماركت سجى",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.63042,
+      "lon": 32.469682,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "سوبرماركت سجى",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_6795201874",
+      "osm_id": 6795201874,
+      "osm_type": "node",
+      "name_en": "سوبرماركت هبه للتسوق",
+      "name_ar": "سوبرماركت هبه للتسوق",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.631423,
+      "lon": 32.468863,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "سوبرماركت هبه للتسوق",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166022253",
+      "osm_id": 7166022253,
+      "osm_type": "node",
+      "name_en": "منن مول",
+      "name_ar": "منن مول",
+      "category_en": "marketplace",
+      "category_ar": "سوق",
+      "lat": 15.638312,
+      "lon": 32.461437,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "marketplace",
+        "name": "منن مول"
+      }
+    },
+    {
+      "id": "osm_node_7166039617",
+      "osm_id": 7166039617,
+      "osm_type": "node",
+      "name_en": "صيدلية صلاح سعد",
+      "name_ar": "صيدلية صلاح سعد",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.630062,
+      "lon": 32.461563,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية صلاح سعد"
+      }
+    },
+    {
+      "id": "osm_node_7166046371",
+      "osm_id": 7166046371,
+      "osm_type": "node",
+      "name_en": "بدر الدين للدواجن",
+      "name_ar": "بدر الدين للدواجن",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.632812,
+      "lon": 32.461563,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "بدر الدين للدواجن",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166047871",
+      "osm_id": 7166047871,
+      "osm_type": "node",
+      "name_en": "مطعم الشايقي",
+      "name_ar": "مطعم الشايقي",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.634687,
+      "lon": 32.460938,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم الشايقي"
+      }
+    },
+    {
+      "id": "osm_node_7166052624",
+      "osm_id": 7166052624,
+      "osm_type": "node",
+      "name_en": "مطعم ابو ندى",
+      "name_ar": "مطعم ابو ندى",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.630313,
+      "lon": 32.461063,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم ابو ندى"
+      }
+    },
+    {
+      "id": "osm_node_7166061761",
+      "osm_id": 7166061761,
+      "osm_type": "node",
+      "name_en": "بقالة ابو الرخاء",
+      "name_ar": "بقالة ابو الرخاء",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.635563,
+      "lon": 32.461437,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "بقالة ابو الرخاء",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166064305",
+      "osm_id": 7166064305,
+      "osm_type": "node",
+      "name_en": "صيدلية كيور كير",
+      "name_ar": "صيدلية كيور كير",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.632563,
+      "lon": 32.461063,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية كيور كير"
+      }
+    },
+    {
+      "id": "osm_node_7166065432",
+      "osm_id": 7166065432,
+      "osm_type": "node",
+      "name_en": "جلابية اولاد سميح",
+      "name_ar": "جلابية اولاد سميح",
+      "category_en": "clothes",
+      "category_ar": "ملابس",
+      "lat": 15.633453,
+      "lon": 32.461464,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "جلابية اولاد سميح",
+        "shop": "clothes"
+      }
+    },
+    {
+      "id": "osm_node_7166068049",
+      "osm_id": 7166068049,
+      "osm_type": "node",
+      "name_en": "بقالة اقسام",
+      "name_ar": "بقالة اقسام",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.636937,
+      "lon": 32.461437,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "بقالة اقسام",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166070708",
+      "osm_id": 7166070708,
+      "osm_type": "node",
+      "name_en": "كافتريا الواجهة أمبدة",
+      "name_ar": "كافتريا الواجهة أمبدة",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.631562,
+      "lon": 32.461689,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "كافتريا الواجهة أمبدة"
+      }
+    },
+    {
+      "id": "osm_node_7166076886",
+      "osm_id": 7166076886,
+      "osm_type": "node",
+      "name_en": "صيدلية د عبدالله",
+      "name_ar": "صيدلية د عبدالله",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.632063,
+      "lon": 32.461563,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية د عبدالله"
+      }
+    },
+    {
+      "id": "osm_node_7166078175",
+      "osm_id": 7166078175,
+      "osm_type": "node",
+      "name_en": "اسواق القدال المركزية",
+      "name_ar": "اسواق القدال المركزية",
+      "category_en": "marketplace",
+      "category_ar": "سوق",
+      "lat": 15.642563,
+      "lon": 32.460812,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "marketplace",
+        "name": "اسواق القدال المركزية"
+      }
+    },
+    {
+      "id": "osm_node_7166079442",
+      "osm_id": 7166079442,
+      "osm_type": "node",
+      "name_en": "سوبر ماركت ابو سعيد",
+      "name_ar": "سوبر ماركت ابو سعيد",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.636437,
+      "lon": 32.461437,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "سوبر ماركت ابو سعيد",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166087365",
+      "osm_id": 7166087365,
+      "osm_type": "node",
+      "name_en": "دافوري ستور",
+      "name_ar": "دافوري ستور",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.635563,
+      "lon": 32.461437,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "دافوري ستور",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166090439",
+      "osm_id": 7166090439,
+      "osm_type": "node",
+      "name_en": "صيدلية الحجر الاسود",
+      "name_ar": "صيدلية الحجر الاسود",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.640062,
+      "lon": 32.461437,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية الحجر الاسود"
+      }
+    },
+    {
+      "id": "osm_node_7166096125",
+      "osm_id": 7166096125,
+      "osm_type": "node",
+      "name_en": "خزانات النمر الذهبي - معرض ود البشير",
+      "name_ar": "خزانات النمر الذهبي - معرض ود البشير",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.642813,
+      "lon": 32.460938,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "خزانات النمر الذهبي - معرض ود البشير",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166096636",
+      "osm_id": 7166096636,
+      "osm_type": "node",
+      "name_en": "Amr للملابس",
+      "name_ar": "Amr للملابس",
+      "category_en": "clothes",
+      "category_ar": "ملابس",
+      "lat": 15.639563,
+      "lon": 32.461311,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "Amr للملابس",
+        "shop": "clothes"
+      }
+    },
+    {
+      "id": "osm_node_7166098664",
+      "osm_id": 7166098664,
+      "osm_type": "node",
+      "name_en": "عديلة سوبر ماركت",
+      "name_ar": "عديلة سوبر ماركت",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.640938,
+      "lon": 32.461311,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "عديلة سوبر ماركت",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166102814",
+      "osm_id": 7166102814,
+      "osm_type": "node",
+      "name_en": "دواجن الكويتية",
+      "name_ar": "دواجن الكويتية",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.640688,
+      "lon": 32.460812,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "دواجن الكويتية",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7166108728",
+      "osm_id": 7166108728,
+      "osm_type": "node",
+      "name_en": "مطعم وكافتريا حلب الشهباء",
+      "name_ar": "مطعم وكافتريا حلب الشهباء",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.639188,
+      "lon": 32.461437,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم وكافتريا حلب الشهباء"
+      }
+    },
+    {
+      "id": "osm_node_7166117524",
+      "osm_id": 7166117524,
+      "osm_type": "node",
+      "name_en": "محطة وقود ود البشير",
+      "name_ar": "محطة وقود ود البشير",
+      "category_en": "fuel",
+      "category_ar": "محطة وقود",
+      "lat": 15.646063,
+      "lon": 32.461437,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "fuel",
+        "name": "محطة وقود ود البشير"
+      }
+    },
+    {
+      "id": "osm_node_7166902462",
+      "osm_id": 7166902462,
+      "osm_type": "node",
+      "name_en": "صيدلية قرطاجنة",
+      "name_ar": "صيدلية قرطاجنة",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.638063,
+      "lon": 32.461437,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية قرطاجنة"
+      }
+    },
+    {
+      "id": "osm_node_7166902604",
+      "osm_id": 7166902604,
+      "osm_type": "node",
+      "name_en": "مطعم كاتشي",
+      "name_ar": "مطعم كاتشي",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.637937,
+      "lon": 32.461437,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم كاتشي"
+      }
+    },
+    {
+      "id": "osm_node_7167432434",
+      "osm_id": 7167432434,
+      "osm_type": "node",
+      "name_en": "صراف الي بنك الشمال الاسلامي",
+      "name_ar": "صراف الي بنك الشمال الاسلامي",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.646063,
+      "lon": 32.460564,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "atm",
+        "name": "صراف الي بنك الشمال الاسلامي"
+      }
+    },
+    {
+      "id": "osm_node_7167447657",
+      "osm_id": 7167447657,
+      "osm_type": "node",
+      "name_en": "عزو للمدائد",
+      "name_ar": "عزو للمدائد",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.645312,
+      "lon": 32.460812,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "عزو للمدائد"
+      }
+    },
+    {
+      "id": "osm_node_7170213289",
+      "osm_id": 7170213289,
+      "osm_type": "node",
+      "name_en": "صيدلية ود البشير",
+      "name_ar": "صيدلية ود البشير",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.649688,
+      "lon": 32.460686,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية ود البشير"
+      }
+    },
+    {
+      "id": "osm_node_7170213411",
+      "osm_id": 7170213411,
+      "osm_type": "node",
+      "name_en": "مدرسة المصباح الثانوية",
+      "name_ar": "مدرسة المصباح الثانوية",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.648063,
+      "lon": 32.461563,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "school",
+        "name": "مدرسة المصباح الثانوية"
+      }
+    },
+    {
+      "id": "osm_node_7170214004",
+      "osm_id": 7170214004,
+      "osm_type": "node",
+      "name_en": "صيدلية الاول",
+      "name_ar": "صيدلية الاول",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.648937,
+      "lon": 32.460938,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية الاول"
+      }
+    },
+    {
+      "id": "osm_node_7245466470",
+      "osm_id": 7245466470,
+      "osm_type": "node",
+      "name_en": "مدارس القبس بنات - العرضة",
+      "name_ar": "مدارس القبس بنات - العرضة",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.644937,
+      "lon": 32.462311,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "school",
+        "name": "مدارس القبس بنات - العرضة"
+      }
+    },
+    {
+      "id": "osm_node_7245480330",
+      "osm_id": 7245480330,
+      "osm_type": "node",
+      "name_en": "شهد الشام فرع العرضة",
+      "name_ar": "شهد الشام فرع العرضة",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.644937,
+      "lon": 32.463814,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "شهد الشام فرع العرضة"
+      }
+    },
+    {
+      "id": "osm_node_7245491377",
+      "osm_id": 7245491377,
+      "osm_type": "node",
+      "name_en": "صيدلية بصري",
+      "name_ar": "صيدلية بصري",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.645187,
+      "lon": 32.463314,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية بصري"
+      }
+    },
+    {
+      "id": "osm_node_7245503954",
+      "osm_id": 7245503954,
+      "osm_type": "node",
+      "name_en": "صراف الي بنك البركة - العرضة",
+      "name_ar": "صراف الي بنك البركة - العرضة",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.645187,
+      "lon": 32.464188,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "atm",
+        "name": "صراف الي بنك البركة - العرضة"
+      }
+    },
+    {
+      "id": "osm_node_7245512703",
+      "osm_id": 7245512703,
+      "osm_type": "node",
+      "name_en": "جلابية صديق حسن",
+      "name_ar": "جلابية صديق حسن",
+      "category_en": "clothes",
+      "category_ar": "ملابس",
+      "lat": 15.645062,
+      "lon": 32.463562,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "جلابية صديق حسن",
+        "shop": "clothes"
+      }
+    },
+    {
+      "id": "osm_node_7245524349",
+      "osm_id": 7245524349,
+      "osm_type": "node",
+      "name_en": "اليقين هايبر ماركت",
+      "name_ar": "اليقين هايبر ماركت",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.644813,
+      "lon": 32.465813,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "اليقين هايبر ماركت",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7245524831",
+      "osm_id": 7245524831,
+      "osm_type": "node",
+      "name_en": "سوبر ماركت انوار المدينة",
+      "name_ar": "سوبر ماركت انوار المدينة",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.644813,
+      "lon": 32.465187,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "سوبر ماركت انوار المدينة",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7245633165",
+      "osm_id": 7245633165,
+      "osm_type": "node",
+      "name_en": "صيدلية المركزية 2",
+      "name_ar": "صيدلية المركزية 2",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.641313,
+      "lon": 32.479939,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "pharmacy",
+        "name": "صيدلية المركزية 2"
+      }
+    },
+    {
+      "id": "osm_node_7245633734",
+      "osm_id": 7245633734,
+      "osm_type": "node",
+      "name_en": "مستر بيرقر",
+      "name_ar": "مستر بيرقر",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.642062,
+      "lon": 32.475811,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مستر بيرقر"
+      }
+    },
+    {
+      "id": "osm_node_7245637276",
+      "osm_id": 7245637276,
+      "osm_type": "node",
+      "name_en": "حلواني ود الباشا - ش العارضة",
+      "name_ar": "حلواني ود الباشا - ش العارضة",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.642062,
+      "lon": 32.477188,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "حلواني ود الباشا - ش العارضة",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7245656701",
+      "osm_id": 7245656701,
+      "osm_type": "node",
+      "name_en": "الحامد جلابية",
+      "name_ar": "الحامد جلابية",
+      "category_en": "clothes",
+      "category_ar": "ملابس",
+      "lat": 15.641812,
+      "lon": 32.478062,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "الحامد جلابية",
+        "shop": "clothes"
+      }
+    },
+    {
+      "id": "osm_node_7245667013",
+      "osm_id": 7245667013,
+      "osm_type": "node",
+      "name_en": "العرضة للتسوق",
+      "name_ar": "العرضة للتسوق",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.641687,
+      "lon": 32.479187,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "name": "العرضة للتسوق",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7245762043",
+      "osm_id": 7245762043,
+      "osm_type": "node",
+      "name_en": "مطعم ومقهى 40 كورنر",
+      "name_ar": "مطعم ومقهى 40 كورنر",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.630187,
+      "lon": 32.479813,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم ومقهى 40 كورنر"
+      }
+    },
+    {
+      "id": "osm_node_7255027885",
+      "osm_id": 7255027885,
+      "osm_type": "node",
+      "name_en": "بنك الخرطوم (فرع حي العرب) /HFW75 kva",
+      "name_ar": "بنك الخرطوم (فرع حي العرب) /HFW75 kva",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.646016,
+      "lon": 32.475712,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "addr:street": "Arda North",
+        "amenity": "bank",
+        "name": "بنك الخرطوم (فرع حي العرب) /HFW75 kva",
+        "phone": "+249982254296"
+      }
+    },
+    {
+      "id": "osm_node_8625309317",
+      "osm_id": 8625309317,
+      "osm_type": "node",
+      "name_en": "مدرسة الزبير بن العوام المجلس الافريقي بنين",
+      "name_ar": "مدرسة الزبير بن العوام المجلس الافريقي بنين",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.640093,
+      "lon": 32.464592,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "addr:housenumber": "5555",
+        "amenity": "school",
+        "name": "مدرسة الزبير بن العوام المجلس الافريقي بنين"
+      }
+    },
+    {
+      "id": "osm_node_8642470418",
+      "osm_id": 8642470418,
+      "osm_type": "node",
+      "name_en": "اقاشي البهجه",
+      "name_ar": "اقاشي البهجة",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.645151,
+      "lon": 32.464462,
+      "area": "Omdurman Central 2",
+      "tags": {
+        "addr:street": "شارع العرضة",
+        "amenity": "restaurant",
+        "name": "اقاشي البهجه",
+        "name:ar": "اقاشي البهجة",
+        "phone": "00249912612619"
+      }
+    },
+    {
+      "id": "osm_node_7005486140",
+      "osm_id": 7005486140,
+      "osm_type": "node",
+      "name_en": "مصنع شبعانه للثلج",
+      "name_ar": "مصنع شبعانه للثلج",
+      "category_en": "convenience",
+      "category_ar": "بقالة",
+      "lat": 15.514688,
+      "lon": 32.535812,
+      "area": "Khartoum South",
+      "tags": {
+        "name": "مصنع شبعانه للثلج",
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm_node_7005495255",
+      "osm_id": 7005495255,
+      "osm_type": "node",
+      "name_en": "سوبر ماركت الاخلاص - جبرة 20",
+      "name_ar": "سوبر ماركت الاخلاص - جبرة 20",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.518313,
+      "lon": 32.540314,
+      "area": "Khartoum South",
+      "tags": {
+        "name": "سوبر ماركت الاخلاص - جبرة 20",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7005529010",
+      "osm_id": 7005529010,
+      "osm_type": "node",
+      "name_en": "شواية بشاير",
+      "name_ar": "شواية بشاير",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.518937,
+      "lon": 32.549187,
+      "area": "Khartoum South",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "شواية بشاير"
+      }
+    },
+    {
+      "id": "osm_node_7005542695",
+      "osm_id": 7005542695,
+      "osm_type": "node",
+      "name_en": "شواية ود البكري",
+      "name_ar": "شواية ود البكري",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.519937,
+      "lon": 32.549187,
+      "area": "Khartoum South",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "شواية ود البكري"
+      }
+    },
+    {
+      "id": "osm_node_6055074900",
+      "osm_id": 6055074900,
+      "osm_type": "node",
+      "name_en": "سوق 6 الجديد مايو",
+      "name_ar": "سوق 6 الجديد مايو",
+      "category_en": "clothes",
+      "category_ar": "ملابس",
+      "lat": 15.493189,
+      "lon": 32.547738,
+      "area": "Khartoum South 2",
+      "tags": {
+        "name": "سوق 6 الجديد مايو",
+        "shop": "clothes"
+      }
+    },
+    {
+      "id": "osm_node_7080568312",
+      "osm_id": 7080568312,
+      "osm_type": "node",
+      "name_en": "حي النصر - مايو",
+      "name_ar": "حي النصر - مايو",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.484187,
+      "lon": 32.538811,
+      "area": "Khartoum South 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "حي النصر - مايو"
+      }
+    },
+    {
+      "id": "osm_node_7088777019",
+      "osm_id": 7088777019,
+      "osm_type": "node",
+      "name_en": "حي النصر",
+      "name_ar": "حي النصر",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.484187,
+      "lon": 32.538811,
+      "area": "Khartoum South 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "حي النصر"
+      }
+    },
+    {
+      "id": "osm_node_7088802489",
+      "osm_id": 7088802489,
+      "osm_type": "node",
+      "name_en": "الصفا سنتر",
+      "name_ar": "الصفا سنتر",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.482938,
+      "lon": 32.531563,
+      "area": "Khartoum South 2",
+      "tags": {
+        "name": "الصفا سنتر",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7088806443",
+      "osm_id": 7088806443,
+      "osm_type": "node",
+      "name_en": "عبد الحليم حلمي للدواجن - ميكو",
+      "name_ar": "عبد الحليم حلمي للدواجن - ميكو",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.484563,
+      "lon": 32.543812,
+      "area": "Khartoum South 2",
+      "tags": {
+        "name": "عبد الحليم حلمي للدواجن - ميكو",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7088813745",
+      "osm_id": 7088813745,
+      "osm_type": "node",
+      "name_en": "بوتيك عادل عبد الكريم",
+      "name_ar": "بوتيك عادل عبد الكريم",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.485937,
+      "lon": 32.540813,
+      "area": "Khartoum South 2",
+      "tags": {
+        "name": "بوتيك عادل عبد الكريم",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7088833392",
+      "osm_id": 7088833392,
+      "osm_type": "node",
+      "name_en": "مركز الاشقاء للخدمات",
+      "name_ar": "مركز الاشقاء للخدمات",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.488188,
+      "lon": 32.544937,
+      "area": "Khartoum South 2",
+      "tags": {
+        "name": "مركز الاشقاء للخدمات",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7088859990",
+      "osm_id": 7088859990,
+      "osm_type": "node",
+      "name_en": "دلالة مايو",
+      "name_ar": "دلالة مايو",
+      "category_en": "marketplace",
+      "category_ar": "سوق",
+      "lat": 15.489688,
+      "lon": 32.546814,
+      "area": "Khartoum South 2",
+      "tags": {
+        "amenity": "marketplace",
+        "name": "دلالة مايو"
+      }
+    },
+    {
+      "id": "osm_node_7095708849",
+      "osm_id": 7095708849,
+      "osm_type": "node",
+      "name_en": "مايو سوق 6 الجديد",
+      "name_ar": "مايو سوق 6 الجديد",
+      "category_en": "marketplace",
+      "category_ar": "سوق",
+      "lat": 15.492312,
+      "lon": 32.546814,
+      "area": "Khartoum South 2",
+      "tags": {
+        "amenity": "marketplace",
+        "name": "مايو سوق 6 الجديد"
+      }
+    },
+    {
+      "id": "osm_node_7095724191",
+      "osm_id": 7095724191,
+      "osm_type": "node",
+      "name_en": "مطعم حواء",
+      "name_ar": "مطعم حواء",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.491563,
+      "lon": 32.542812,
+      "area": "Khartoum South 2",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم حواء"
+      }
+    },
+    {
+      "id": "osm_node_1025579136",
+      "osm_id": 1025579136,
+      "osm_type": "node",
+      "name_en": "Octogon Cafe",
+      "name_ar": "كوفير",
+      "category_en": "cafe",
+      "category_ar": "مقهى",
+      "lat": 15.585953,
+      "lon": 32.541126,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "cafe",
+        "name": "Octogon Cafe",
+        "name:ar": "كوفير",
+        "name:en": "saline"
+      }
+    },
+    {
+      "id": "osm_node_2526402862",
+      "osm_id": 2526402862,
+      "osm_type": "node",
+      "name_en": "Solitaire",
+      "name_ar": "Solitaire",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.580039,
+      "lon": 32.546557,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Solitaire"
+      }
+    },
+    {
+      "id": "osm_node_4171743190",
+      "osm_id": 4171743190,
+      "osm_type": "node",
+      "name_en": "مستشفى حراء",
+      "name_ar": "مستشفى حراء",
+      "category_en": "hospital",
+      "category_ar": "مستشفى",
+      "lat": 15.585171,
+      "lon": 32.542842,
+      "area": "Airport Area",
+      "tags": {
+        "addr:street": "شارع 1",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "مستشفى حراء",
+        "name:ar": "مستشفى حراء",
+        "name:en": "Hira Hospital",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "osm_node_4256563090",
+      "osm_id": 4256563090,
+      "osm_type": "node",
+      "name_en": "مطعم مأرب السيارحي",
+      "name_ar": "مطعم مأرب السيارحي",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.583651,
+      "lon": 32.541598,
+      "area": "Airport Area",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "amenity": "restaurant",
+        "name": "مطعم مأرب السيارحي",
+        "name:ar": "مطعم مأرب السيارحي"
+      }
+    },
+    {
+      "id": "osm_node_4261965398",
+      "osm_id": 4261965398,
+      "osm_type": "node",
+      "name_en": "Barcelos",
+      "name_ar": "Barcelos",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.598059,
+      "lon": 32.558599,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Barcelos"
+      }
+    },
+    {
+      "id": "osm_node_4261971094",
+      "osm_id": 4261971094,
+      "osm_type": "node",
+      "name_en": "بنك الخرطوم",
+      "name_ar": "بنك الخرطوم",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.599798,
+      "lon": 32.558242,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "bank",
+        "name": "بنك الخرطوم"
+      }
+    },
+    {
+      "id": "osm_node_4271732991",
+      "osm_id": 4271732991,
+      "osm_type": "node",
+      "name_en": "Mobi Mart",
+      "name_ar": "Mobi Mart",
+      "category_en": "mobile_phone",
+      "category_ar": "محل موبايل",
+      "lat": 15.583607,
+      "lon": 32.545457,
+      "area": "Airport Area",
+      "tags": {
+        "name": "Mobi Mart",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "id": "osm_node_4278123290",
+      "osm_id": 4278123290,
+      "osm_type": "node",
+      "name_en": "مطعم مأكولات برشلونة",
+      "name_ar": "مطعم مأكولات برشلونة",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.585052,
+      "lon": 32.543689,
+      "area": "Airport Area",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "amenity": "restaurant",
+        "name": "مطعم مأكولات برشلونة",
+        "name:ar": "مطعم مأكولات برشلونة",
+        "name:en": "Barcelona Food"
+      }
+    },
+    {
+      "id": "osm_node_4306306389",
+      "osm_id": 4306306389,
+      "osm_type": "node",
+      "name_en": "امواج",
+      "name_ar": "امواج",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.580944,
+      "lon": 32.549537,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "grill;chicken;sandwich;fish;kebab;burger;barbecue",
+        "name": "امواج",
+        "name:ar": "امواج",
+        "name:en": "Amwaj",
+        "phone": "0918288890"
+      }
+    },
+    {
+      "id": "osm_node_4548433599",
+      "osm_id": 4548433599,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.588464,
+      "lon": 32.541066,
+      "area": "Airport Area",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "addr:postcode": "11111",
+        "addr:street": "شارع المفتي",
+        "addr:street:ar": "شارع المفتي",
+        "amenity": "atm"
+      }
+    },
+    {
+      "id": "osm_node_4548439395",
+      "osm_id": 4548439395,
+      "osm_type": "node",
+      "name_en": "ماكينة الصراف الآلي",
+      "name_ar": "ماكينة الصراف الآلي",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.585069,
+      "lon": 32.544254,
+      "area": "Airport Area",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "amenity": "atm",
+        "name": "ماكينة الصراف الآلي",
+        "name:ar": "ماكينة الصراف الآلي",
+        "name:en": "ATM BOK"
+      }
+    },
+    {
+      "id": "osm_node_4548439405",
+      "osm_id": 4548439405,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "convenience",
+      "category_ar": "بقالة",
+      "lat": 15.583199,
+      "lon": 32.541271,
+      "area": "Airport Area",
+      "tags": {
+        "addr:postcode": "11111",
+        "addr:street": "Mohamed Nageeb Street",
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm_node_4548450100",
+      "osm_id": 4548450100,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.585555,
+      "lon": 32.54752,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "id": "osm_node_4548450101",
+      "osm_id": 4548450101,
+      "osm_type": "node",
+      "name_en": "ماكينة الصراف الآلي",
+      "name_ar": "ماكينة الصراف الآلي",
+      "category_en": "atm",
+      "category_ar": "صراف آلي",
+      "lat": 15.585385,
+      "lon": 32.547858,
+      "area": "Airport Area",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "amenity": "atm",
+        "name": "ماكينة الصراف الآلي",
+        "name:ar": "ماكينة الصراف الآلي"
+      }
+    },
+    {
+      "id": "osm_node_4548473791",
+      "osm_id": 4548473791,
+      "osm_type": "node",
+      "name_en": "شركة كمبال العالمية",
+      "name_ar": "شركة كمبال العالمية",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.584445,
+      "lon": 32.545643,
+      "area": "Airport Area",
+      "tags": {
+        "addr:postcode": "11111",
+        "addr:street": "Street 5",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "شركة كمبال العالمية",
+        "name:en": "شركة كمبال العالمية"
+      }
+    },
+    {
+      "id": "osm_node_4548473792",
+      "osm_id": 4548473792,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.58678,
+      "lon": 32.546426,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "id": "osm_node_4548473990",
+      "osm_id": 4548473990,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.585126,
+      "lon": 32.544606,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "id": "osm_node_4548474191",
+      "osm_id": 4548474191,
+      "osm_type": "node",
+      "name_en": "جنرال موتورز",
+      "name_ar": "جنرال موتورز",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.582455,
+      "lon": 32.548408,
+      "area": "Airport Area",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "جنرال موتورز",
+        "name:ar": "جنرال موتورز",
+        "name:en": "GMC company"
+      }
+    },
+    {
+      "id": "osm_node_4548474192",
+      "osm_id": 4548474192,
+      "osm_type": "node",
+      "name_en": "سامسونق",
+      "name_ar": "سامسونق",
+      "category_en": "mobile_phone",
+      "category_ar": "محل موبايل",
+      "lat": 15.58505,
+      "lon": 32.544035,
+      "area": "Airport Area",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:postcode": "١١١١١",
+        "addr:street": "شارع ١",
+        "name": "سامسونق",
+        "name:ar": "سامسونق",
+        "name:en": "SAMSUNG",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "id": "osm_node_4548474193",
+      "osm_id": 4548474193,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.585221,
+      "lon": 32.545285,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "id": "osm_node_4548474195",
+      "osm_id": 4548474195,
+      "osm_type": "node",
+      "name_en": "ابقالة بوحمزة",
+      "name_ar": "ابقالة بوحمزة",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.588159,
+      "lon": 32.541218,
+      "area": "Airport Area",
+      "tags": {
+        "addr:postcode": "11111",
+        "addr:street": "al Mufti Street",
+        "name": "ابقالة بوحمزة",
+        "name:en": "ابقالة بوحمزة",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_4548474591",
+      "osm_id": 4548474591,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.584769,
+      "lon": 32.541318,
+      "area": "Airport Area",
+      "tags": {
+        "addr:city": "الخرطوم",
+        "addr:city:ar": "الخرطوم",
+        "addr:postcode": "11111",
+        "addr:street": "شارع 1",
+        "addr:street:ar": "شارع 1",
+        "amenity": "bank"
+      }
+    },
+    {
+      "id": "osm_node_4564235691",
+      "osm_id": 4564235691,
+      "osm_type": "node",
+      "name_en": "مطعم بابا حسين",
+      "name_ar": "مطعم بابا حسين",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.589016,
+      "lon": 32.540798,
+      "area": "Airport Area",
+      "tags": {
+        "addr:postcode": "11111",
+        "addr:street": "al Mufti Street",
+        "amenity": "restaurant",
+        "cuisine": "fine_dining",
+        "name": "مطعم بابا حسين",
+        "name:en": "مطعم بابا حسين",
+        "opening_hours": "Sa-Th 08:00-22:00"
+      }
+    },
+    {
+      "id": "osm_node_4586990589",
+      "osm_id": 4586990589,
+      "osm_type": "node",
+      "name_en": "Cafe Crepe",
+      "name_ar": "Cafe Crepe",
+      "category_en": "cafe",
+      "category_ar": "مقهى",
+      "lat": 15.580154,
+      "lon": 32.545518,
+      "area": "Airport Area",
+      "tags": {
+        "addr:street": "Street 15ا",
+        "amenity": "cafe",
+        "name": "Cafe Crepe",
+        "name:en": "Cafe Crepe"
+      }
+    },
+    {
+      "id": "osm_node_4628040789",
+      "osm_id": 4628040789,
+      "osm_type": "node",
+      "name_en": "صيدلية الرياض الحديثة",
+      "name_ar": "صيدلية الرياض الحديثة",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.594179,
+      "lon": 32.559891,
+      "area": "Airport Area",
+      "tags": {
+        "addr:street": "Mamoon Al Berar Street",
+        "amenity": "pharmacy",
+        "dispensing": "no",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "name": "صيدلية الرياض الحديثة",
+        "name:ar": "صيدلية الرياض الحديثة"
+      }
+    },
+    {
+      "id": "osm_node_4718667390",
+      "osm_id": 4718667390,
+      "osm_type": "node",
+      "name_en": "Kook Door",
+      "name_ar": "Kook Door",
+      "category_en": "cafe",
+      "category_ar": "مقهى",
+      "lat": 15.588424,
+      "lon": 32.540263,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "cafe",
+        "name": "Kook Door",
+        "name:en": "Kook Door",
+        "opening_hours": "Mo-Su 07:00-02:00"
+      }
+    },
+    {
+      "id": "osm_node_6007648391",
+      "osm_id": 6007648391,
+      "osm_type": "node",
+      "name_en": "بارسيلوس",
+      "name_ar": "بارسيلوس",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.598402,
+      "lon": 32.55829,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "بارسيلوس",
+        "name:ar": "بارسيلوس",
+        "name:en": "Barcelos"
+      }
+    },
+    {
+      "id": "osm_node_6007676429",
+      "osm_id": 6007676429,
+      "osm_type": "node",
+      "name_en": "",
+      "name_ar": "",
+      "category_en": "pharmacy",
+      "category_ar": "صيدلية",
+      "lat": 15.596723,
+      "lon": 32.558532,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "healthcare": "pharmacy"
+      }
+    },
+    {
+      "id": "osm_node_6007683099",
+      "osm_id": 6007683099,
+      "osm_type": "node",
+      "name_en": "بقالة أولاد سعيد",
+      "name_ar": "بقالة أولاد سعيد",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.598129,
+      "lon": 32.559128,
+      "area": "Airport Area",
+      "tags": {
+        "name": "بقالة أولاد سعيد",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_6007687231",
+      "osm_id": 6007687231,
+      "osm_type": "node",
+      "name_en": "تموينات السوباط",
+      "name_ar": "تموينات السوباط",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.595622,
+      "lon": 32.559418,
+      "area": "Airport Area",
+      "tags": {
+        "name": "تموينات السوباط",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_6007690783",
+      "osm_id": 6007690783,
+      "osm_type": "node",
+      "name_en": "مركز الصفا",
+      "name_ar": "مركز الصفا",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.594962,
+      "lon": 32.559525,
+      "area": "Airport Area",
+      "tags": {
+        "name": "مركز الصفا",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_6007699866",
+      "osm_id": 6007699866,
+      "osm_type": "node",
+      "name_en": "مطعم روابي الشام",
+      "name_ar": "مطعم روابي الشام",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.594625,
+      "lon": 32.559977,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم روابي الشام"
+      }
+    },
+    {
+      "id": "osm_node_6126564888",
+      "osm_id": 6126564888,
+      "osm_type": "node",
+      "name_en": "Qatar National Bank QNB",
+      "name_ar": "بنك قطر الوطني QNB",
+      "category_en": "bank",
+      "category_ar": "بنك",
+      "lat": 15.580018,
+      "lon": 32.549579,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "bank",
+        "name": "Qatar National Bank QNB",
+        "name:ar": "بنك قطر الوطني QNB"
+      }
+    },
+    {
+      "id": "osm_node_6126586788",
+      "osm_id": 6126586788,
+      "osm_type": "node",
+      "name_en": "Levi's Store",
+      "name_ar": "Levi's Store",
+      "category_en": "clothes",
+      "category_ar": "ملابس",
+      "lat": 15.580318,
+      "lon": 32.549543,
+      "area": "Airport Area",
+      "tags": {
+        "name": "Levi's Store",
+        "shop": "clothes"
+      }
+    },
+    {
+      "id": "osm_node_7736599480",
+      "osm_id": 7736599480,
+      "osm_type": "node",
+      "name_en": "Meeting cafe",
+      "name_ar": "Meeting cafe",
+      "category_en": "cafe",
+      "category_ar": "مقهى",
+      "lat": 15.591437,
+      "lon": 32.558937,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "cafe",
+        "name": "Meeting cafe"
+      }
+    },
+    {
+      "id": "osm_node_7736635453",
+      "osm_id": 7736635453,
+      "osm_type": "node",
+      "name_en": "المخبز الفرنسي",
+      "name_ar": "المخبز الفرنسي",
+      "category_en": "bakery",
+      "category_ar": "مخبز",
+      "lat": 15.594937,
+      "lon": 32.559437,
+      "area": "Airport Area",
+      "tags": {
+        "name": "المخبز الفرنسي",
+        "shop": "bakery"
+      }
+    },
+    {
+      "id": "osm_node_7736636183",
+      "osm_id": 7736636183,
+      "osm_type": "node",
+      "name_en": "مطعم روابي الشام",
+      "name_ar": "مطعم روابي الشام",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.594563,
+      "lon": 32.559936,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم روابي الشام"
+      }
+    },
+    {
+      "id": "osm_node_7736639408",
+      "osm_id": 7736639408,
+      "osm_type": "node",
+      "name_en": "مطعم وكافي انجوي",
+      "name_ar": "مطعم وكافي انجوي",
+      "category_en": "restaurant",
+      "category_ar": "مطعم",
+      "lat": 15.591562,
+      "lon": 32.559189,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "restaurant",
+        "name": "مطعم وكافي انجوي"
+      }
+    },
+    {
+      "id": "osm_node_7736652299",
+      "osm_id": 7736652299,
+      "osm_type": "node",
+      "name_en": "E7na arts",
+      "name_ar": "E7na arts",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.592813,
+      "lon": 32.559189,
+      "area": "Airport Area",
+      "tags": {
+        "name": "E7na arts",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7736652333",
+      "osm_id": 7736652333,
+      "osm_type": "node",
+      "name_en": "حلواني بحري الحديث",
+      "name_ar": "حلواني بحري الحديث",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.593938,
+      "lon": 32.559936,
+      "area": "Airport Area",
+      "tags": {
+        "name": "حلواني بحري الحديث",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7736655339",
+      "osm_id": 7736655339,
+      "osm_type": "node",
+      "name_en": "كازقيل للاجبان ٢",
+      "name_ar": "كازقيل للاجبان ٢",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.598437,
+      "lon": 32.558937,
+      "area": "Airport Area",
+      "tags": {
+        "name": "كازقيل للاجبان ٢",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7736657002",
+      "osm_id": 7736657002,
+      "osm_type": "node",
+      "name_en": "مدرسة المتحدة الخاصة",
+      "name_ar": "مدرسة المتحدة الخاصة",
+      "category_en": "school",
+      "category_ar": "مدرسة",
+      "lat": 15.593687,
+      "lon": 32.559437,
+      "area": "Airport Area",
+      "tags": {
+        "amenity": "school",
+        "name": "مدرسة المتحدة الخاصة"
+      }
+    },
+    {
+      "id": "osm_node_7736675799",
+      "osm_id": 7736675799,
+      "osm_type": "node",
+      "name_en": "بقالة الدوحة",
+      "name_ar": "بقالة الدوحة",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.596937,
+      "lon": 32.559311,
+      "area": "Airport Area",
+      "tags": {
+        "name": "بقالة الدوحة",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm_node_7736686490",
+      "osm_id": 7736686490,
+      "osm_type": "node",
+      "name_en": "الصفا لعصير القصب",
+      "name_ar": "الصفا لعصير القصب",
+      "category_en": "supermarket",
+      "category_ar": "سوبر ماركت",
+      "lat": 15.596312,
+      "lon": 32.559437,
+      "area": "Airport Area",
+      "tags": {
+        "name": "الصفا لعصير القصب",
+        "shop": "supermarket"
+      }
+    }
+  ]
+}

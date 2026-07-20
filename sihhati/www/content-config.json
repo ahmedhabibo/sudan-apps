@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-20",
+  "defaultLang": "ar",
+  "defaultDir": "rtl",
+  "app": "sihati",
+  "appTitle": "صحتي",
+  "appSubtitle": "المرجع الطبي",
+  "contentSources": [
+    {
+      "id": "medical",
+      "label": "Medical",
+      "labelAr": "طبي",
+      "icon": "cross",
+      "path": "data/medical.json"
+    }
+  ],
+  "categories": [
+    {
+      "id": "trauma",
+      "label": "Trauma",
+      "labelAr": "الإصابات والجروح",
+      "icon": "🩹",
+      "source": "medical"
+    },
+    {
+      "id": "malnutrition",
+      "label": "Malnutrition",
+      "labelAr": "سوء التغذية",
+      "icon": "🍎",
+      "source": "medical"
+    },
+    {
+      "id": "pregnancy",
+      "label": "Pregnancy",
+      "labelAr": "الحمل والولادة",
+      "icon": "🤰",
+      "source": "medical"
+    },
+    {
+      "id": "infections",
+      "label": "Infections",
+      "labelAr": "الأمراض المعدية",
+      "icon": "🦠",
+      "source": "medical"
+    },
+    {
+      "id": "drugs",
+      "label": "Drugs",
+      "labelAr": "الأدوية",
+      "icon": "💊",
+      "source": "medical"
+    },
+    {
+      "id": "firstaid",
+      "label": "First Aid",
+      "labelAr": "الإسعافات الأولية",
+      "icon": "🚑",
+      "source": "medical"
+    }
+  ],
+  "searchEngine": "fuse",
+  "bluetoothShare": {
+    "exportFile": "data/medical-content.json.gz",
+    "exportLabel": "تصدير المحتوى للمشاركة",
+    "importLabel": "استيراد محتوى عبر ملف"
+  }
+}

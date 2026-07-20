@@ -1,0 +1,32 @@
+{
+  "lesson": "word_problems",
+  "questions": [
+    {
+      "id": 1,
+      "question_ar": "اشترى أحمد 5 كيلوغرامات من الأرز بسعر 6 جنيهات للكيلو و3 كيلوغرامات من العدس بسعر 8 جنيهات للكيلو. دفع بمبلغ 100 جنيه. كم يبقى له؟",
+      "question_en": "Ahmed bought 5 kg of rice at 6 pounds per kg and 3 kg of lentils at 8 pounds per kg. He paid with 100 pounds. How much does he have left?",
+      "options_ar": ["46 جنيه", "54 جنيه", "40 جنيه"],
+      "options_en": ["46 pounds", "54 pounds", "40 pounds"],
+      "correct_answer": 0,
+      "explanation_ar": "تكلفة الأرز = 5 × 6 = 30 جنيه. تكلفة العدس = 3 × 8 = 24 جنيه. الإجمالي = 30 + 24 = 54 جنيه. الباقي = 100 - 54 = 46 جنيه."
+    },
+    {
+      "id": 2,
+      "question_ar": "ارتفعت أسعار الخضار في السوق بنسبة 15%. إذا كان سعر الكيلوغرام من البصل سابقًا 4 جنيهات، فما السعر الجديد؟",
+      "question_en": "Vegetable prices increased by 15%. If the price of a kilogram of onions was previously 4 pounds, what is the new price?",
+      "options_ar": ["4.6 جنيه", "4.5 جنيه", "5.0 جنيه"],
+      "options_en": ["4.6 pounds", "4.5 pounds", "5.0 pounds"],
+      "correct_answer": 0,
+      "explanation_ar": "الزيادة = 15% من 4 = 0.15 × 4 = 0.6 جنيه. السعر الجديد = 4 + 0.6 = 4.6 جنيه."
+    },
+    {
+      "id": 3,
+      "question_ar": "مثلث أرضي قاعدته 30 متر وارتفاعه 20 متر. إذا wanted to fence حول المثلث، وطول الضلع الثالث هو 25 متر، فما طول السياج المطلوب؟",
+      "question_en": "A triangular plot of land has a base of 30 meters and height of 20 meters. If you want to fence around the triangle, and the third side is 25 meters, what length of fencing is required?",
+      "options_ar": ["75 متر", "60 متر", "80 متر"],
+      "options_en": ["75 meters", "60 meters", "80 meters"],
+      "correct_answer": 0,
+      "explanation_ar": "محيط المثلث = مجموع الأضلاع = 30 + 20 + 25 = 75 متر."
+    }
+  ]
+}

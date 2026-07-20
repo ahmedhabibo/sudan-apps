@@ -1,0 +1,17 @@
+{
+  "name": "Sudan Apps Offline Reader",
+  "short_name": "SudanReader",
+  "description": "Offline PWA reader for medical and educational content",
+  "start_url": "./www/index.html",
+  "scope": "./www/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a73e8",
+  "lang": "ar",
+  "dir": "rtl",
+  "orientation": "any",
+  "icons": [
+    { "src": "www/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "www/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

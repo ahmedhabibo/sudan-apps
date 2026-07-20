@@ -1,0 +1,419 @@
+/* app.css — Derasa offline education PWA
+   RTL, dark-mode-friendly, Flexbox layout, Arabic system fonts */
+
+:root {
+  --primary: #2E7D32;
+  --primary-light: #4CAF50;
+  --primary-dark: #1B5E20;
+  --bg: #FAFAFA;
+  --card-bg: #FFFFFF;
+  --text: #212121;
+  --text-muted: #757575;
+  --border: #E0E0E0;
+  --error: #D32F2F;
+  --success: #388E3C;
+  --warning: #F57C00;
+  --quiz-correct: #C8E6C9;
+  --quiz-wrong: #FFCDD2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1A1A1A;
+    --card-bg: #2D2D2D;
+    --text: #E0E0E0;
+    --text-muted: #999;
+    --border: #444;
+    --primary: #4CAF50;
+    --primary-light: #66BB6A;
+    --primary-dark: #388E3C;
+  }
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', Tahoma, 'Noto Sans Arabic', 'Arabic UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  direction: rtl;
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/* Header */
+#app-header {
+  background: var(--primary);
+  color: white;
+  padding: 0.8rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#app-header h1 { font-size: 1.3rem; font-weight: 700; }
+
+#header-info { display: flex; gap: 0.5rem; align-items: center; font-size: 0.7rem; }
+
+.content-version { opacity: 0.8; color: white; }
+
+.offline-badge {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+}
+
+/* Nav bar */
+#nav-bar {
+  display: flex;
+  justify-content: space-around;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+  padding: 0.3rem 0;
+  position: sticky;
+  top: 3.2rem;
+  z-index: 99;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.nav-btn.active {
+  color: var(--primary);
+  font-weight: 700;
+  border-bottom: 2px solid var(--primary);
+}
+
+/* Main content */
+#main-content { padding: 1rem; }
+
+.view { display: none; }
+.view.active { display: block; }
+
+/* Packs grid (home) */
+#packs-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.pack-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.pack-card:hover { border-color: var(--primary); }
+.pack-card h3 { margin-bottom: 0.5rem; font-size: 1.05rem; }
+
+.pack-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Pack selectors */
+.selector-group { margin-bottom: 1rem; }
+.selector-group > label { display: block; margin-bottom: 0.4rem; font-weight: 600; }
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.select-btn {
+  background: var(--card-bg);
+  border: 2px solid var(--border);
+  border-radius: 20px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--text);
+  transition: all 0.2s;
+}
+
+.select-btn.active {
+  border-color: var(--primary);
+  background: var(--primary);
+  color: white;
+}
+
+/* Manifest */
+#pack-manifest {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--card-bg);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+#manifest-lessons { margin: 0.8rem 0; }
+
+.lesson-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.3rem;
+  background: var(--bg);
+}
+
+.lesson-item.completed { opacity: 0.7; }
+.lesson-item.completed .lesson-title { text-decoration: line-through; }
+
+.lesson-num {
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.done-badge { color: var(--success); font-weight: 700; margin-right: auto; }
+
+/* Action button */
+.action-btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  margin: 0.5rem 0;
+  transition: background 0.2s;
+}
+
+.action-btn:hover { background: var(--primary-dark); }
+
+/* Status messages */
+.status-msg { font-size: 0.85rem; margin: 0.5rem 0; color: var(--text-muted); }
+.hint { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+
+/* Lesson reader */
+#reader-view { padding: 1rem; }
+
+#lesson-progress-bar { margin-bottom: 0.8rem; }
+
+.progress-bar-container {
+  position: relative;
+  background: var(--border);
+  border-radius: 10px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  background: var(--primary-light);
+  height: 100%;
+  transition: width 0.3s;
+}
+
+.progress-bar-text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 24px;
+  font-size: 0.7rem;
+  color: var(--text);
+}
+
+#lesson-content {
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+
+#lesson-content h2 { margin: 0.8rem 0 0.5rem; color: var(--primary-dark); }
+#lesson-content h3 { margin: 0.6rem 0 0.4rem; }
+#lesson-content table { width: 100%; border-collapse: collapse; margin: 0.5rem 0; }
+#lesson-content th, #lesson-content td {
+  border: 1px solid var(--border);
+  padding: 0.4rem;
+  text-align: center;
+}
+#lesson-content th { background: var(--primary-light); color: white; }
+#lesson-content code { background: var(--border); padding: 0.1rem 0.3rem; border-radius: 3px; }
+#lesson-content ul, #lesson-content ol { padding-right: 1.5rem; margin: 0.5rem 0; }
+
+/* Quiz */
+#quiz-view { padding: 1rem; }
+
+#quiz-progress { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+
+.quiz-question h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.quiz-options { display: flex; flex-direction: column; gap: 0.5rem; }
+
+.quiz-option {
+  background: var(--card-bg);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: right;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.quiz-option:hover:not(:disabled) { border-color: var(--primary); }
+.quiz-option:disabled { cursor: default; }
+
+.quiz-option.correct {
+  border-color: var(--success);
+  background: var(--quiz-correct);
+}
+
+.quiz-option.wrong {
+  border-color: var(--error);
+  background: var(--quiz-wrong);
+}
+
+.opt-letter {
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+}
+
+.quiz-option.correct .opt-letter { background: var(--success); }
+.quiz-option.wrong .opt-letter { background: var(--error); }
+
+/* Quiz feedback */
+.quiz-feedback {
+  margin-top: 0.8rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.quiz-feedback.correct { background: var(--quiz-correct); border-left: 4px solid var(--success); }
+.quiz-feedback.wrong { background: var(--quiz-wrong); border-left: 4px solid var(--error); }
+
+.feedback-result { font-weight: 700; margin-bottom: 0.3rem; }
+.feedback-explanation { line-height: 1.6; }
+
+/* Quiz result */
+#quiz-result { margin-top: 1rem; text-align: center; }
+
+.quiz-score {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+}
+
+.quiz-score.pass { background: var(--quiz-correct); color: var(--success); }
+.quiz-score.fail { background: var(--quiz-wrong); color: var(--error); }
+
+/* Progress view */
+.progress-summary-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+.progress-card {
+  text-align: center;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.8rem 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.progress-card .big {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.2rem;
+}
+
+.progress-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.progress-item .muted { color: var(--text-muted); font-size: 0.8rem; margin-right: auto; }
+.progress-item .score-badge {
+  background: var(--primary-light);
+  color: white;
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.75rem;
+}
+
+/* Sync message styles */
+.success { color: var(--success); }
+.error { color: var(--error); }
+
+/* Back button */
+.back-btn {
+  background: none;
+  border: none;
+  color: var(--primary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-family: inherit;
+  margin-bottom: 0.8rem;
+  padding: 0.3rem 0;
+}

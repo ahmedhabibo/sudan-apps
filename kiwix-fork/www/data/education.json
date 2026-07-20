@@ -1,0 +1,13 @@
+[
+  {
+    "id": "arithmetic-basics",
+    "title": "أساسيات الحساب",
+    "titleEn": "Arithmetic Basics",
+    "category": "education",
+    "source": "education",
+    "lastReviewed": "2025-01-01",
+    "reviewer": "Ministry of Education",
+    "hash": "sha256:placeholder-education",
+    "content": "## أساسيات الحساب\n\n### العمليات الأربعة\n\n1. الجمع (+)\n2. الطرح (-)\n3. الضرب (x)\n4. القسمة (/)\n\n### أمثلة\n\n- 5 + 3 = 8\n- 10 - 4 = 6\n- 6 x 7 = 42\n- 20 / 4 = 5\n\n### ترتيب العمليات\n\n1. الأقواس أولاً\n2. الضرب والقسمة\n3. الجمع والطرح"
+  }
+]

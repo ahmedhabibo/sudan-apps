@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>دراسة — Derasa</title>
+  <meta name="description" content="حزم تعليمية تعمل دون اتصال — Offline education packs">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob: 'unsafe-inline'; object-src 'none';">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="icon" href="img/icon-192.png">
+</head>
+<body>
+  <header id="app-header">
+    <h1>📋 دراسة</h1>
+    <div id="header-info">
+      <span id="content-version" class="content-version">v1.0</span>
+      <span id="offline-indicator" class="offline-badge">يعمل دون اتصال</span>
+    </div>
+  </header>
+
+  <nav id="nav-bar">
+    <button class="nav-btn active" data-view="home">🏠 الرئيسية</button>
+    <button class="nav-btn" data-view="packs">📦 الحزم</button>
+    <button class="nav-btn" data-view="progress">📊 التقدم</button>
+    <button class="nav-btn" data-view="sync">🔄 المزامنة</button>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- HOME VIEW: downloaded packs overview -->
+    <section id="home-view" class="view active">
+      <h2>حزمي المحمّلة</h2>
+      <div id="packs-grid"></div>
+      <div id="home-empty" class="empty-state">
+        <p>لا توجد حزم محمّلة بعد.</p>
+        <p>اذهب إلى تبويب الحزم لتحميل حزمة تعليمية.</p>
+      </div>
+    </section>
+
+    <!-- PACKS VIEW: subject+level selection → manifest → download -->
+    <section id="packs-view" class="view">
+      <h2>تحميل الحزم</h2>
+
+      <div id="pack-selectors">
+        <div class="selector-group">
+          <label>المادة:</label>
+          <div id="subject-buttons" class="btn-group"></div>
+        </div>
+        <div class="selector-group">
+          <label>الصف:</label>
+          <div id="level-buttons" class="btn-group"></div>
+        </div>
+      </div>
+
+      <div id="pack-manifest" style="display:none">
+        <h3 id="manifest-title"></h3>
+        <div id="manifest-lessons"></div>
+        <button id="download-pack-btn" class="action-btn">⬇ تحميل الحزمة</button>
+      </div>
+
+      <div id="pack-download-status" class="status-msg"></div>
+
+      <hr>
+      <h3>استيراد حزمة عبر Bluetooth</h3>
+      <p class="hint">استقبلت ملف حزمة (.json.gz) من جهاز آخر؟ استورده هنا:</p>
+      <input type="file" id="import-file-input" accept=".json,.json.gz" style="display:none">
+      <button id="import-pack-btn" class="action-btn">📂 استيراد من ملف</button>
+      <div id="import-status" class="status-msg"></div>
+    </section>
+
+    <!-- LESSON LIST VIEW: shows lessons in a downloaded pack -->
+    <section id="lesson-list-view" class="view">
+      <button class="back-btn" data-target="home">← رجوع</button>
+      <h2 id="lesson-list-title"></h2>
+      <div id="lesson-list"></div>
+    </section>
+
+    <!-- READER VIEW: render lesson markdown RTL -->
+    <section id="reader-view" class="view">
+      <button class="back-btn" data-target="lesson-list">← رجوع</button>
+      <div id="lesson-progress-bar"></div>
+      <h2 id="lesson-title"></h2>
+      <article id="lesson-content" dir="rtl"></article>
+      <button id="mark-complete-btn" class="action-btn">✓ إكمال الدرس</button>
+      <button id="start-quiz-btn" class="action-btn">📝 اختبار</button>
+    </section>
+
+    <!-- QUIZ VIEW: multiple choice with instant feedback -->
+    <section id="quiz-view" class="view">
+      <button class="back-btn" data-target="reader">← رجوع</button>
+      <h2 id="quiz-title"></h2>
+      <div id="quiz-progress"></div>
+      <div id="quiz-content"></div>
+      <button id="quiz-next-btn" class="action-btn" style="display:none">التالي ←</button>
+      <button id="quiz-finish-btn" class="action-btn" style="display:none">إنهاء الاختبار</button>
+      <div id="quiz-result" style="display:none"></div>
+    </section>
+
+    <!-- PROGRESS VIEW: completed lessons + quiz scores -->
+    <section id="progress-view" class="view">
+      <h2>تقدمي</h2>
+      <div id="progress-summary"></div>
+      <div id="progress-list"></div>
+    </section>
+
+    <!-- SYNC VIEW: progress sync queue -->
+    <section id="sync-view" class="view">
+      <h2>مزامنة التقدم</h2>
+      <div id="sync-status"></div>
+      <button id="sync-now-btn" class="action-btn">🔄 مزامنة الآن</button>
+      <div id="sync-queue-list"></div>
+    </section>
+
+  </main>
+
+  <script src="js/fuse.min.js"></script>
+  <script src="js/marked.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

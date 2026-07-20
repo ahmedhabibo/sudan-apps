@@ -1,0 +1,32 @@
+{
+  "lesson": "fractions",
+  "questions": [
+    {
+      "id": 1,
+      "question_ar": "ما هو الناتج عندما نجمع الكسرين 1/4 و 1/2؟",
+      "question_en": "What is the result when adding the fractions 1/4 and 1/2?",
+      "options_ar": ["1/6", "3/4", "2/6"],
+      "options_en": ["1/6", "3/4", "2/6"],
+      "correct_answer": 1,
+      "explanation_ar": "لجمع الكسرين، نحت مقامات مشتركة. أصغر مقام مشترك لـ 4 و 2 هو 4. نحول 1/2 إلى 2/4 ثم نجمع: 1/4 + 2/4 = 3/4."
+    },
+    {
+      "id": 2,
+      "question_ar": "إذا كان لديك 3/4 من كيلوغرام من التفاح وأكلت 1/4 من الكيلوغرام، كم يبقى معك؟",
+      "question_en": "If you have 3/4 kg of apples and you eat 1/4 kg, how much remains?",
+      "options_ar": ["1/2 كغ", "2/4 كغ", "1/2 كغ"],
+      "options_en": ["1/2 kg", "2/4 kg", "1/2 kg"],
+      "correct_answer": 0,
+      "explanation_ar": "نطرح الكسرين بنفس المقام: 3/4 - 1/4 = 2/4 = 1/2 كغ."
+    },
+    {
+      "id": 3,
+      "question_ar": "أي الكسرين مبسّط: 8/12 أم 3/4؟",
+      "question_en": "Which fraction is simplified: 8/12 or 3/4?",
+      "options_ar": ["8/12", "3/4", "كلا الكسرين مبسّطان"],
+      "options_en": ["8/12", "3/4", "Both fractions are simplified"],
+      "correct_answer": 1,
+      "explanation_ar": "الكسر 8/12 يمكن تبسيطه بقسمة البسط والمقام على 4 ليصبح 2/3. أما الكسر 3/4 فكلا العددين أوليان بالنسبة لبعضهما ولا يمكن تبسيطه أكثر."
+    }
+  ]
+}

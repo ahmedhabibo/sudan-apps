@@ -1,0 +1,32 @@
+{
+  "lesson": "geometry",
+  "questions": [
+    {
+      "id": 1,
+      "question_ar": "ما هو محيط مستطيل طوله 8 سم وعرضه 5 سم؟",
+      "question_en": "What is the perimeter of a rectangle with length 8 cm and width 5 cm?",
+      "options_ar": ["26 سم", "13 سم", "40 سم"],
+      "options_en": ["26 cm", "13 cm", "40 cm"],
+      "correct_answer": 0,
+      "explanation_ar": "محيط المستطيل = 2 × (الطول + العرض) = 2 × (8 + 5) = 2 × 13 = 26 سم."
+    },
+    {
+      "id": 2,
+      "question_ar": "إذا كان lado של مربع يساوي 6 سم، فما مساحته؟",
+      "question_en": "If the side of a square is 6 cm, what is its area?",
+      "options_ar": ["24 سم²", "36 سم²", "12 سم²"],
+      "options_en": ["24 cm²", "36 cm²", "12 cm²"],
+      "correct_answer": 1,
+      "explanation_ar": "مساحة المربع = lado² = 6 × 6 = 36 سم²."
+    },
+    {
+      "id": 3,
+      "question_ar": "مثلث له قاعدة 10 سم وارتفاع 4 سم. ما مساحته؟",
+      "question_en": "A triangle has a base of 10 cm and height 4 cm. What is its area?",
+      "options_ar": ["20 سم²", "40 سم²", "10 سم²"],
+      "options_en": ["20 cm²", "40 cm²", "10 cm²"],
+      "correct_answer": 0,
+      "explanation_ar": "مساحة المثلث = (القاعدة × الارتفاع) ÷ 2 = (10 × 4) ÷ 2 = 40 ÷ 2 = 20 سم²."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "app": "derasa",
+  "backendUrl": "http://localhost:8461",
+  "defaultDir": "rtl",
+  "defaultLang": "ar",
+  "lastUpdated": "2025-01-15",
+  "version": "1.0.0",
+  "packsDir": "data/education/",
+  "subjects": [
+    {
+      "id": "math",
+      "label": "Mathematics",
+      "labelAr": "الرياضيات",
+      "icon": "🔢"
+    },
+    {
+      "id": "science",
+      "label": "Science",
+      "labelAr": "العلوم",
+      "icon": "🔬"
+    },
+    {
+      "id": "arabic",
+      "label": "Arabic Language",
+      "labelAr": "اللغة العربية",
+      "icon": "📖"
+    },
+    {
+      "id": "social",
+      "label": "Social Studies",
+      "labelAr": "الدراسات الاجتماعية",
+      "icon": "🌍"
+    }
+  ],
+  "levels": [
+    {
+      "id": "g4",
+      "label": "Grade 4",
+      "labelAr": "الصف الرابع"
+    },
+    {
+      "id": "g5",
+      "label": "Grade 5",
+      "labelAr": "الصف الخامس"
+    },
+    {
+      "id": "g6",
+      "label": "Grade 6",
+      "labelAr": "الصف السادس"
+    },
+    {
+      "id": "g7",
+      "label": "Grade 7",
+      "labelAr": "الصف السابع"
+    },
+    {
+      "id": "g8",
+      "label": "Grade 8",
+      "labelAr": "الصف الثامن"
+    }
+  ]
+}

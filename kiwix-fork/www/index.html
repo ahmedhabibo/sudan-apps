@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>Sudan Reader</title>
+  <meta name="description" content="Offline reader for medical and educational content">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob: 'unsafe-inline'; object-src 'none';">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="icon" href="img/icon-192.png">
+</head>
+<body>
+  <header id="app-header">
+    <h1>القارئ السوداني</h1>
+    <div id="search-bar">
+      <input type="search" id="search-input" placeholder="بحث..." autocomplete="off">
+      <button id="search-btn" aria-label="بحث">🔍</button>
+    </div>
+    <div id="content-version" class="content-version">v1.0</div>
+  </header>
+
+  <nav id="category-nav">
+    <button class="category-btn active" data-category="all">الكل</button>
+    <!-- categories populated dynamically -->
+  </nav>
+
+  <main id="main-content">
+    <!-- Home view: category list -->
+    <section id="home-view" class="view active">
+      <div id="category-grid"></div>
+    </section>
+
+    <!-- Article list view -->
+    <section id="article-list-view" class="view">
+      <button class="back-btn">← رجوع</button>
+      <h2 id="article-list-title"></h2>
+      <div id="article-list"></div>
+    </section>
+
+    <!-- Article reader view -->
+    <section id="reader-view" class="view">
+      <button class="back-btn">← رجوع</button>
+      <article id="article-content"></article>
+      <div id="article-meta"></div>
+    </section>
+
+    <!-- Search results view -->
+    <section id="search-view" class="view">
+      <h2>نتائج البحث</h2>
+      <div id="search-results"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div id="offline-indicator" class="offline-badge">يعمل دون اتصال</div>
+  </footer>
+
+  <script src="js/fuse.min.js"></script>
+  <script src="js/marked.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

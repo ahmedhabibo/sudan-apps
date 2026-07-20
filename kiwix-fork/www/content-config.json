@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-15",
+  "defaultLang": "ar",
+  "defaultDir": "rtl",
+  "apps": ["sihati", "derasa"],
+  "contentSources": [
+    { "id": "medical", "label": "Medical", "labelAr": "طبي", "icon": "cross", "path": "data/medical.json" },
+    { "id": "education", "label": "Education", "labelAr": "تعليمي", "icon": "book", "path": "data/education.json" }
+  ],
+  "categories": [
+    { "id": "trauma", "label": "Trauma", "labelAr": "الإصابات", "icon": "bandage", "source": "medical" },
+    { "id": "malnutrition", "label": "Malnutrition", "labelAr": "سوء التغذية", "icon": "apple", "source": "medical" },
+    { "id": "pregnancy", "label": "Pregnancy", "labelAr": "الحمل", "icon": "belly", "source": "medical" },
+    { "id": "infections", "label": "Infections", "labelAr": "الأمراض المعدية", "icon": "virus", "source": "medical" },
+    { "id": "drugs", "label": "Drugs", "labelAr": "الأدوية", "icon": "pill", "source": "medical" },
+    { "id": "firstaid", "label": "First Aid", "labelAr": "الإسعافات", "icon": "ambulance", "source": "medical" }
+  ],
+  "searchEngine": "fuse"
+}
