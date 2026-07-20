@@ -7,8 +7,10 @@ Endpoints:
   POST /api/progress                  — submit progress (lesson/quiz)
   GET  /api/progress?pack_id=X        — get progress for a pack
   GET  /api/progress/aggregate        — aggregate progress dashboard
+  GET  /api/health                    — health check
 
-SQLite schema: packs, progress_records
+Persistence: SQLite at /tmp/derasa.db (Vercel) or local derasa.db (dev).
+Pack data: embedded as static JSON in the backend directory for Vercel.
 """
 
 import sqlite3
@@ -18,20 +20,25 @@ from datetime import datetime
 from pathlib import Path
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
 # ── Setup ────────────────────────────────────────────────────────────
 BACKEND_DIR = Path(__file__).parent
-DB_PATH = BACKEND_DIR / "derasa.db"
-PACKS_DIR = BACKEND_DIR.parent / "www" / "data" / "education"
+
+# Use /tmp on Vercel (serverless), local dir on dev
+if os.environ.get("VERCEL"):
+    DB_PATH = Path("/tmp/derasa.db")
+    PACKS_DIR = BACKEND_DIR / "data" / "education"
+else:
+    DB_PATH = BACKEND_DIR / "derasa.db"
+    PACKS_DIR = BACKEND_DIR.parent / "www" / "data" / "education"
 
 app = FastAPI(title="Derasa Backend", version="1.0.0")
 
-# CORS — allow the PWA (served from a different port) to POST progress
+# CORS — allow the PWA from any origin
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, restrict to the PWA domain
+    allow_origins=["*"],
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
@@ -47,7 +54,7 @@ def init_db():
             title       TEXT,
             title_en    TEXT,
             version     TEXT DEFAULT '1.0.0',
-            lessons     TEXT,  -- JSON array of lesson metadata
+            lessons     TEXT,
             created_at  TEXT DEFAULT (datetime('now'))
         )
     """)
@@ -57,18 +64,16 @@ def init_db():
             progress_id     TEXT UNIQUE NOT NULL,
             pack_id         TEXT NOT NULL,
             lesson_id       TEXT,
-            type            TEXT NOT NULL,  -- 'lesson' or 'quiz'
-            score           INTEGER,        -- quiz percentage
+            type            TEXT NOT NULL,
+            score           INTEGER,
             correct_count   INTEGER,
             total_count     INTEGER,
-            completed_at    INTEGER,         -- epoch ms from client
+            completed_at    INTEGER,
             synced_at       TEXT DEFAULT (datetime('now')),
             device_id       TEXT
         )
     """)
-    conn.execute("""
-        CREATE INDEX IF NOT EXISTS idx_progress_pack ON progress_records(pack_id)
-    """)
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_progress_pack ON progress_records(pack_id)")
     conn.commit()
     conn.close()
 
@@ -76,7 +81,6 @@ init_db()
 
 # ── Pack catalog (auto-scan the education dir) ─────────────────────────
 def scan_packs():
-    """Scan PACKS_DIR for *-manifest.json files and build the catalog."""
     packs = []
     if not PACKS_DIR.exists():
         return packs
@@ -100,7 +104,6 @@ def scan_packs():
     return packs
 
 def upsert_pack_catalog():
-    """Insert/update packs table from scanned manifests."""
     packs = scan_packs()
     conn = sqlite3.connect(str(DB_PATH))
     for p in packs:
@@ -116,7 +119,6 @@ def upsert_pack_catalog():
     conn.close()
     return packs
 
-# Initialize pack catalog
 upsert_pack_catalog()
 
 # ── Pydantic models ───────────────────────────────────────────────────
@@ -124,7 +126,7 @@ class ProgressRecord(BaseModel):
     progressId: str
     packId: str
     lessonId: str | None = None
-    type: str = "lesson"  # "lesson" or "quiz"
+    type: str = "lesson"
     score: int | None = None
     correctCount: int | None = None
     totalCount: int | None = None
@@ -133,10 +135,8 @@ class ProgressRecord(BaseModel):
     deviceId: str | None = None
 
 # ── Endpoints ─────────────────────────────────────────────────────────
-
 @app.get("/api/packs")
 async def list_packs():
-    """List all available education packs."""
     conn = sqlite3.connect(str(DB_PATH))
     conn.row_factory = sqlite3.Row
     rows = conn.execute("SELECT * FROM packs ORDER BY subject, level").fetchall()
@@ -154,20 +154,16 @@ async def list_packs():
         })
     return {"packs": packs, "count": len(packs)}
 
-
 @app.get("/api/packs/{pack_id}")
 async def get_pack(pack_id: str):
-    """Download a full pack (all lessons + quizzes) as JSON."""
     pack_file = PACKS_DIR / f"{pack_id}.json"
     if not pack_file.exists():
         raise HTTPException(status_code=404, detail=f"Pack '{pack_id}' not found")
     with open(pack_file, encoding="utf-8") as f:
         return json.load(f)
 
-
 @app.post("/api/progress")
 async def submit_progress(record: ProgressRecord):
-    """Submit a progress record (lesson completion or quiz result)."""
     conn = sqlite3.connect(str(DB_PATH))
     try:
         conn.execute("""
@@ -184,10 +180,8 @@ async def submit_progress(record: ProgressRecord):
         conn.close()
     return {"status": "ok", "progressId": record.progressId}
 
-
 @app.get("/api/progress")
 async def get_progress(pack_id: str = Query(None)):
-    """Get progress records, optionally filtered by pack_id."""
     conn = sqlite3.connect(str(DB_PATH))
     conn.row_factory = sqlite3.Row
     if pack_id:
@@ -200,7 +194,6 @@ async def get_progress(pack_id: str = Query(None)):
             "SELECT * FROM progress_records ORDER BY completed_at DESC"
         ).fetchall()
     conn.close()
-
     records = []
     for r in rows:
         records.append({
@@ -217,10 +210,8 @@ async def get_progress(pack_id: str = Query(None)):
         })
     return {"records": records, "count": len(records)}
 
-
 @app.get("/api/progress/aggregate")
 async def aggregate_progress():
-    """Aggregate progress dashboard — completion counts per pack."""
     conn = sqlite3.connect(str(DB_PATH))
     conn.row_factory = sqlite3.Row
     rows = conn.execute("""
@@ -233,7 +224,6 @@ async def aggregate_progress():
         GROUP BY pack_id
     """, ()).fetchall()
     conn.close()
-
     aggregates = []
     for r in rows:
         aggregates.append({
@@ -244,11 +234,9 @@ async def aggregate_progress():
         })
     return {"aggregates": aggregates, "count": len(aggregates)}
 
-
 @app.get("/api/health")
 async def health():
-    return {"status": "ok", "service": "derasa-backend", "db": str(DB_PATH)}
-
+    return {"status": "ok", "service": "derasa-backend", "db": str(DB_PATH), "vercel": bool(os.environ.get("VERCEL"))}
 
 if __name__ == "__main__":
     import uvicorn

@@ -1,6 +1,6 @@
 {
   "app": "derasa",
-  "backendUrl": "http://localhost:8461",
+  "backendUrl": "https://derasa-backend.vercel.app",
   "defaultDir": "rtl",
   "defaultLang": "ar",
   "lastUpdated": "2025-01-15",

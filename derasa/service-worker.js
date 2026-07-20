@@ -22,6 +22,9 @@ const APP_SHELL = [
   './www/data/education/math-g6-manifest.json',
   './www/data/education/math-g6.json',
   './www/data/education/math-g6.json.gz',
+  './www/img/icon-192.png',
+  './www/img/icon-512.png',
+  './www/img/qr-code.png',
   './manifest.webmanifest'
 ];
 

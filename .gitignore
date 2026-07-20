@@ -5,6 +5,7 @@ sihhati/www/
 derasa/backend/__pycache__/
 *.pyc
 derasa/backend/derasa.db
+derasa/backend/_tmp/
 
 # OS
 .DS_Store

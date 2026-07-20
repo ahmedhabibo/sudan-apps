@@ -24,6 +24,7 @@
     <button class="nav-btn" data-view="packs">📦 الحزم</button>
     <button class="nav-btn" data-view="progress">📊 التقدم</button>
     <button class="nav-btn" data-view="sync">🔄 المزامنة</button>
+    <button class="nav-btn" data-view="dashboard">📈 الإحصائيات</button>
   </nav>
 
   <main id="main-content">
@@ -35,6 +36,11 @@
       <div id="home-empty" class="empty-state">
         <p>لا توجد حزم محمّلة بعد.</p>
         <p>اذهب إلى تبويب الحزم لتحميل حزمة تعليمية.</p>
+      </div>
+      <hr>
+      <div id="qr-section" style="text-align:center; margin-top:1rem;">
+        <p class="hint">امسح رمز QR لمشاركة التطبيق:</p>
+        <img src="img/qr-code.png" alt="QR Code" style="width:200px; height:200px; border:1px solid var(--border); border-radius:8px;">
       </div>
     </section>
 
@@ -67,6 +73,12 @@
       <input type="file" id="import-file-input" accept=".json,.json.gz" style="display:none">
       <button id="import-pack-btn" class="action-btn">📂 استيراد من ملف</button>
       <div id="import-status" class="status-msg"></div>
+      <hr>
+      <h3>تصدير حزمة لمشاركتها</h3>
+      <p class="hint">صدّر حزمة محمّلة كملف (.json.gz) لمشاركتها عبر Bluetooth:</p>
+      <button id="export-pack-btn" class="action-btn">📤 تصدير الحزمة</button>
+      <input type="file" id="export-file-input" accept=".json,.json.gz" style="display:none">
+      <div id="export-status" class="status-msg"></div>
     </section>
 
     <!-- LESSON LIST VIEW: shows lessons in a downloaded pack -->
@@ -110,6 +122,13 @@
       <div id="sync-status"></div>
       <button id="sync-now-btn" class="action-btn">🔄 مزامنة الآن</button>
       <div id="sync-queue-list"></div>
+    </section>
+
+    <!-- DASHBOARD VIEW: aggregate progress from backend -->
+    <section id="dashboard-view" class="view">
+      <h2>لوحة التقدم الإجمالية</h2>
+      <div id="dashboard-status"></div>
+      <div id="dashboard-content"></div>
     </section>
 
   </main>

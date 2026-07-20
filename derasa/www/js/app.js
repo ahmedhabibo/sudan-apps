@@ -281,6 +281,45 @@ async function importPackFromFile(file) {
   }
 }
 
+// ── Pack export for Bluetooth sharing ──────────────────────────────────
+async function exportPackToFile() {
+  const packs = await dbGetAll('packs');
+  if (!packs || packs.length === 0) {
+    $('#export-status').textContent = 'لا توجد حزم محمّلة للتصدير.';
+    return;
+  }
+
+  // If only one pack, export it; if multiple, export the first one
+  // (future: show a pack picker)
+  const pack = packs[0];
+  const packJson = JSON.stringify(pack);
+  const packId = pack.packId || 'pack';
+
+  try {
+    // Compress with gzip using CompressionStream
+    const blob = new Blob([packJson], { type: 'application/json' });
+    const cs = new CompressionStream('gzip');
+    const compressedStream = blob.stream().pipeThrough(cs);
+    const compressedBlob = new Response(compressedStream).blob();
+    const compressedArrayBuffer = await (await compressedBlob).arrayBuffer();
+
+    // Create download link
+    const url = URL.createObjectURL(new Blob([compressedArrayBuffer], { type: 'application/gzip' }));
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${packId}.json.gz`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+
+    const sizeKB = (compressedArrayBuffer.byteLength / 1024).toFixed(1);
+    $('#export-status').textContent = `✓ تم تصدير ${packId}.json.gz (${sizeKB}KB) — شاركه عبر Bluetooth`;
+  } catch (err) {
+    $('#export-status').textContent = 'فشل التصدير: ' + err.message;
+  }
+}
+
 // ── Home: downloaded packs overview ──────────────────────────────────
 async function renderHomePacks() {
   const packs = await dbGetAll('packs');
@@ -647,6 +686,102 @@ async function syncNow() {
   $('#sync-status').innerHTML = `<p class="${failed === 0 ? 'success' : 'error'}">مُزامن: ${synced}، فشل: ${failed}</p>`;
 }
 
+// ── Aggregate dashboard view ─────────────────────────────────────────
+async function renderDashboard() {
+  const statusEl = $('#dashboard-status');
+  const contentEl = $('#dashboard-content');
+
+  if (!navigator.onLine) {
+    statusEl.innerHTML = '<p class="error">✗ لوحة الإحصائيات تتطلب اتصالاً بالإنترنت.</p>';
+    contentEl.innerHTML = '';
+    return;
+  }
+
+  statusEl.innerHTML = '<p class="hint">جاري تحميل الإحصائيات...</p>';
+  contentEl.innerHTML = '';
+
+  const backendUrl = state.config.backendUrl || 'https://derasa-backend.vercel.app';
+
+  try {
+    // Fetch aggregate data
+    const [aggResp, packsResp] = await Promise.all([
+      fetch(`${backendUrl}/api/progress/aggregate`),
+      fetch(`${backendUrl}/api/packs`)
+    ]);
+
+    if (!aggResp.ok || !packsResp.ok) {
+      throw new Error('فشل تحميل البيانات');
+    }
+
+    const aggData = await aggResp.json();
+    const packsData = await packsResp.json();
+
+    statusEl.innerHTML = '';
+
+    if (!aggData.aggregates || aggData.aggregates.length === 0) {
+      contentEl.innerHTML = '<div class="empty-state"><p>لا توجد بيانات تقدم مُزامنة بعد.</p><p class="hint">سينشر التقدم تلقائياً عند المزامنة.</p></div>';
+      return;
+    }
+
+    // Build lookup from packs catalog
+    const packMap = {};
+    (packsData.packs || []).forEach(p => {
+      packMap[p.packId] = p;
+    });
+
+    // Render aggregate cards
+    let html = '<div class="dashboard-grid">';
+
+    // Total summary
+    const totalLessons = aggData.aggregates.reduce((s, a) => s + a.lessonsCompleted, 0);
+    const totalQuizzes = aggData.aggregates.reduce((s, a) => s + a.quizzesCompleted, 0);
+    const allScores = aggData.aggregates.filter(a => a.avgQuizScore > 0);
+    const overallAvg = allScores.length > 0
+      ? Math.round(allScores.reduce((s, a) => s + a.avgQuizScore, 0) / allScores.length)
+      : 0;
+
+    html += `
+      <div class="dashboard-summary">
+        <div class="progress-card"><span class="big">${aggData.aggregates.length}</span> حزم نشطة</div>
+        <div class="progress-card"><span class="big">${totalLessons}</span> دروس مكتملة</div>
+        <div class="progress-card"><span class="big">${totalQuizzes}</span> اختبارات</div>
+        <div class="progress-card"><span class="big">${overallAvg}%</span> متوسط الدرجات</div>
+      </div>
+    `;
+
+    // Per-pack breakdown
+    html += '<h3>تفاصيل الحزم</h3>';
+    html += '<table class="dashboard-table">';
+
+    // Table header — RTL
+    html += '<thead><tr><th>الحزمة</th><th>دروس</th><th>اختبارات</th><th>المتوسط</th></tr></thead>';
+    html += '<tbody>';
+
+    aggData.aggregates.forEach(a => {
+      const packInfo = packMap[a.packId] || {};
+      const titleAr = packInfo.title || packInfo.titleEn || a.packId;
+      html += `<tr>
+        <td>${titleAr}</td>
+        <td class="num">${a.lessonsCompleted}</td>
+        <td class="num">${a.quizzesCompleted}</td>
+        <td class="num">${a.avgQuizScore > 0 ? a.avgQuizScore + '%' : '—'}</td>
+      </tr>`;
+    });
+
+    html += '</tbody></table>';
+
+    // Last updated
+    html += `<p class="hint" style="margin-top:1rem">آخر تحديث: ${new Date().toLocaleString('ar')}</p>`;
+
+    html += '</div>';
+    contentEl.innerHTML = html;
+
+  } catch (err) {
+    statusEl.innerHTML = `<p class="error">✗ تعذّر تحميل الإحصائيات: ${err.message}</p>`;
+    contentEl.innerHTML = '';
+  }
+}
+
 // ── Progress bar ──────────────────────────────────────────────────────
 async function updateProgressBar() {
   if (!state.currentPack || !state.currentLesson) return;
@@ -700,6 +835,9 @@ function bindEvents() {
     }
   });
 
+  // Export pack for Bluetooth sharing
+  $('#export-pack-btn').addEventListener('click', exportPackToFile);
+
   // Lesson actions
   $('#mark-complete-btn').addEventListener('click', markLessonComplete);
   $('#start-quiz-btn').addEventListener('click', startQuiz);
@@ -717,6 +855,11 @@ function bindEvents() {
   $('#sync-now-btn').addEventListener('click', syncNow);
   $$('.nav-btn[data-view="sync"]').forEach(btn => {
     btn.addEventListener('click', updateSyncStatus);
+  });
+
+  // Dashboard
+  $$('.nav-btn[data-view="dashboard"]').forEach(btn => {
+    btn.addEventListener('click', renderDashboard);
   });
 
   // Online/offline events → auto-sync when back online
